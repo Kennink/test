@@ -2,7 +2,11 @@ let contacts = [];
 
 // Fetch the contact data from the JSON file
 function fetchData() {
-  fetch('contacts.json')
+  // Add a unique query parameter (timestamp) to the URL to force reload
+  const timestamp = new Date().getTime();
+  const jsonUrl = `contacts.json?${timestamp}`;
+  
+  fetch(jsonUrl)
     .then(response => response.json())
     .then(data => {
       contacts = data;
