@@ -39,7 +39,7 @@ function searchContact() {
     resultDiv.innerHTML = filteredContacts.map(contact => {
       return `
         <div class="contact-result">
-          <h2>Rank: ${contact.rank}</h2>
+          <p>Rank: ${contact.rank}</p>
           <p>Name: ${contact.name}</p>
           <p>Phone: ${contact.phone}</p>
           <button onclick="makeCall('${contact.phone}')">Call</button>
