@@ -1,22 +1,42 @@
 [
-    {
-        "Rank": "SP",
-        "Name": "Yogendra Kumar Khadka ",
-        "Phone": "9851135627"
-    },
-    {
-        "Rank": "Insp",
-        "Name": "Lal Bahadur BK",
-        "Phone": "9858390520"
-    },
-    {
-        "Rank": "Insp",
-        "Name": "Madhu Sudan Singh",
-        "Phone": "9858090567"
-    },
-    {
-        "Rank": "Insp",
-        "Name": "Parbat Kumar K.C",
-        "Phone": "9858090054"
-    }
+  {
+    "rank": "ASI",
+    "name": "Laxman Rijal",
+    "phone": "9861489664"
+  },
+  {
+    "rank": 2,
+    "name": "Jane Smith",
+    "phone": "9876543210"
+  },
+  {
+    "rank": 3,
+    "name": "Robert Brown",
+    "phone": "5551234567"
+  },
+  {
+    "rank": 4,
+    "name": "Emily Davis",
+    "phone": "5557654321"
+  },
+  {
+    "rank": 5,
+    "name": "Michael Johnson",
+    "phone": "5559876543"
+  },
+  {
+    "rank": 6,
+    "name": "Sarah Wilson",
+    "phone": "5550001111"
+  },
+  {
+    "rank": 7,
+    "name": "David Lee",
+    "phone": "5552223333"
+  },
+  {
+    "rank": 8,
+    "name": "Linda Clark",
+    "phone": "5554445555"
+  }
 ]
