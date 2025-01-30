@@ -1,7 +1,7 @@
 [
     {
         "rank": "SP",
-        "name": "Yogendra Kumar Khadka",
+        "name": "Yogendra Kumar Khadka ",
         "phone": "9851135627"
     },
     {
@@ -18,5 +18,1435 @@
         "rank": "Insp",
         "name": "Parbat Kumar K.C",
         "phone": "9858090054"
+    },
+    {
+        "rank": "Insp",
+        "name": "Parsu Ram Chaudhary",
+        "phone": "9848424342"
+    },
+    {
+        "rank": "S.S.I.",
+        "name": "Sachin Singh Rathore",
+        "phone": "9851285445"
+    },
+    {
+        "rank": "S.S.I.",
+        "name": "Chandra Bahadur Magar",
+        "phone": "9858090815"
+    },
+    {
+        "rank": "S.I.",
+        "name": "Prem Bahadur Khatri",
+        "phone": "9848294011"
+    },
+    {
+        "rank": "S.I.",
+        "name": "Bhim Bahadur Khadka",
+        "phone": "9865966360"
+    },
+    {
+        "rank": "S.I.",
+        "name": "Mohammad Taki Khan",
+        "phone": "9848034478"
+    },
+    {
+        "rank": "S.I.",
+        "name": "Bhagirath Singh Dhami",
+        "phone": "9858050922"
+    },
+    {
+        "rank": "S.I.",
+        "name": "Dhurba Narayan Chaudhary",
+        "phone": "9867904320"
+    },
+    {
+        "rank": "S.I.",
+        "name": "Rajendra Singh Pujara",
+        "phone": "9858085399"
+    },
+    {
+        "rank": "S.I.",
+        "name": "Sunil Kumar Khadka",
+        "phone": "9848101078"
+    },
+    {
+        "rank": "S.I.",
+        "name": "Kumva Raj Bista",
+        "phone": "9851284967"
+    },
+    {
+        "rank": "S.I.",
+        "name": "Narayan Giri",
+        "phone": "9848045507"
+    },
+    {
+        "rank": "A.S.I.",
+        "name": "Yuvraj Khatri",
+        "phone": "9742212484"
+    },
+    {
+        "rank": "A.S.I.",
+        "name": "Pradip Tiwari",
+        "phone": "9866007891"
+    },
+    {
+        "rank": "A.S.I.",
+        "name": "Dipendra Chaudhary",
+        "phone": "9844955411"
+    },
+    {
+        "rank": "A.S.I.",
+        "name": "Purna Bahadur Roka Chhetri",
+        "phone": "9861924535"
+    },
+    {
+        "rank": "A.S.I.",
+        "name": "Raju Budhathoki",
+        "phone": "9868273177"
+    },
+    {
+        "rank": "A.S.I.",
+        "name": "Gorkha Bahadur B.K.",
+        "phone": "9843502279"
+    },
+    {
+        "rank": "A.S.I.",
+        "name": "Surya Lal Yadav",
+        "phone": "9847979168"
+    },
+    {
+        "rank": "A.S.I.",
+        "name": "Rudra Kumari Oli",
+        "phone": "9848223784"
+    },
+    {
+        "rank": "A.S.I.",
+        "name": "Tikaram Chaudhary",
+        "phone": "9849339997"
+    },
+    {
+        "rank": "A.S.I.",
+        "name": "Durga Bahadur Reule",
+        "phone": "9847920916"
+    },
+    {
+        "rank": "A.S.I.",
+        "name": "Bhuma Shahi",
+        "phone": "9868923190"
+    },
+    {
+        "rank": "A.S.I.",
+        "name": "Shushil Dangi",
+        "phone": "9869549891"
+    },
+    {
+        "rank": "A.S.I.",
+        "name": "Sangam Basnet",
+        "phone": "9848085128"
+    },
+    {
+        "rank": "A.S.I.",
+        "name": "Laxman Rijal",
+        "phone": "9861489664"
+    },
+    {
+        "rank": "A.S.I.",
+        "name": "Rupa Chaudhary",
+        "phone": "9800534296"
+    },
+    {
+        "rank": "A.S.I.",
+        "name": "Hari Nepali",
+        "phone": "9868990301"
+    },
+    {
+        "rank": "S.H.C.",
+        "name": "Khemraj Chaudhary",
+        "phone": "9868376910"
+    },
+    {
+        "rank": "S.H.C.",
+        "name": "Chandra Bahadur Rawal",
+        "phone": "9868006345"
+    },
+    {
+        "rank": "S.H.C.",
+        "name": "Prem Sundar Bohara",
+        "phone": "9858073122"
+    },
+    {
+        "rank": "S.H.C.",
+        "name": "Santosh Kumar Yadav",
+        "phone": "9848179400"
+    },
+    {
+        "rank": "S.H.C.",
+        "name": "Suk Bahadur Marsai",
+        "phone": "9857067163"
+    },
+    {
+        "rank": "S.H.C.",
+        "name": "Gopal Bahadur Bohara",
+        "phone": "9848126927"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Ashok Kumar Yadav",
+        "phone": "9744278932"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Nanda Gharti",
+        "phone": "9868380522"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Gobinda Singh Tharu",
+        "phone": "9765858303"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Dilli Bahadur Thapa Chhetri",
+        "phone": "9704518816"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Chandra Bahadur Giri",
+        "phone": "9846585887"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Kalimane Sunar",
+        "phone": "9868667117"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Dinesh Karki",
+        "phone": "9858090355"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Bikram Singh Singh",
+        "phone": "9868190700"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Bal Bahadur Shahi",
+        "phone": "9866607616"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Narendra Khan",
+        "phone": "9868982100"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Bhagatram Chaudhary",
+        "phone": "9863417060"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Om Bahadur B.K.",
+        "phone": "9848087209"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Dhruba Thapa",
+        "phone": "9858090297"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Kamal Bahadur Malla",
+        "phone": "9844917973"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Patma Prasad Pandey",
+        "phone": "9868144280"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Chandra Dev Giri",
+        "phone": "9842666150"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Dinesh Kumar Barma",
+        "phone": "9864822742"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Sohan Lal Chaudhary",
+        "phone": "9868286778"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Rishiraj Shah",
+        "phone": "9847832946"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Chitra Kumari Shahi",
+        "phone": "9868233842"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Ammar Lal B.C.",
+        "phone": "9847085742"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Sampat Gadariya",
+        "phone": "9841395539"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Bindu Thapa",
+        "phone": "9868662960"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Bir Bahadur Chand",
+        "phone": "9844888515"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Ram Dayal Verma",
+        "phone": "9848293456"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Rajendra Prasad Badhai",
+        "phone": "9849525013"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Kamala Kumari Tharu",
+        "phone": "9847212493"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Shanti Chaudhary",
+        "phone": "9866084161"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Narayan Upadhyaya",
+        "phone": "9868922058"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Lachhu Ram Tharu",
+        "phone": "9849634514"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Prem Kumar Tharu",
+        "phone": "9868269641"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Shushila Gurung",
+        "phone": "9863125447"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Sita Rasaeli",
+        "phone": "9858061234"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Kriparam Yadav",
+        "phone": "9814558402"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Ashok Kumar Bishwokarma",
+        "phone": "9864922980"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Dipendra Malla",
+        "phone": "9848250301"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Sukae Khatik",
+        "phone": "9786461514"
+    },
+    {
+        "rank": "H.C.",
+        "name": "Ram Sharan Khatik",
+        "phone": ""
+    },
+    {
+        "rank": "H.C.",
+        "name": "Guru prasad Tharu",
+        "phone": ""
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Malik ram Kandu",
+        "phone": "9865350475"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Ram Prasad Yadav",
+        "phone": "9861445018"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Ram Raj Tharu",
+        "phone": "9848145663"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Satya Narayan Chaudhary",
+        "phone": "9848091032"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Krishna Kumar Tharu",
+        "phone": "9849142951"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Ammar Bahadur Thapa",
+        "phone": "9857890218"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Suresh Giri",
+        "phone": "9869172978"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Aaete Rawat",
+        "phone": "9848153955"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Khim Bahadur Thapa",
+        "phone": "9860666820"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Mayaram Raidas (Chamar)",
+        "phone": "9866838286"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Mahesh Raj Bhatta",
+        "phone": "9810624615"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Ishwor Bahadur Thapa",
+        "phone": "9851282377"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Pravat Thapa",
+        "phone": "9849754340"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Anita Kumari Berma",
+        "phone": "9867949802"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Kopila Chhetri",
+        "phone": "9848087406"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Prem Kumar Yadav",
+        "phone": "9848217181"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Amit Rana",
+        "phone": "9860220059"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Dambar D.C.",
+        "phone": "9866162219"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Dipak Nepali",
+        "phone": "9868108502"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Dwarika Prasad Chaudhary",
+        "phone": "9849830294"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Ravi Kumar Kahar",
+        "phone": "9769283482"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Krishna Bahadur Thapa",
+        "phone": "9867295200"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Mahedra Bahadur Basnet",
+        "phone": "9846702603"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Pramod Yadav",
+        "phone": "9864665794"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Lachhi Ram Loniya",
+        "phone": "9868965545"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Nabin Gharti",
+        "phone": "9843489754"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Jivan Kumar Yogi",
+        "phone": "9840095693"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Rajan Chaudhary",
+        "phone": "9860018004"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Laksh Kumari Tharu",
+        "phone": "9841875050"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Krishna Bahadur Sunar",
+        "phone": "9843712628"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Kamal Khanal",
+        "phone": "9866836881"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Sushma Thapa",
+        "phone": "9849885050"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Dil bahadaur Chaudhary",
+        "phone": "9867229026"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Jalime Giri",
+        "phone": "9866912220"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Misan G.C.",
+        "phone": "9864143299"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Shuvash Tharu",
+        "phone": "9866214520"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Jitendra Kashyap Kahar",
+        "phone": "9866819558"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Sunita Kumari Tharu",
+        "phone": "9868190944"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Kailesh Khatri",
+        "phone": "9868660951"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Gopi lal Chaudhary",
+        "phone": "9848183677"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Dipak Khadka",
+        "phone": "9848207838"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Padam Bahadur Sinjali Magar",
+        "phone": "9866985302"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Jagat Prasad Jaisi",
+        "phone": "9864345744"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Khim Bahadur Bohara",
+        "phone": "9842358500"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Sahidur Rahaman Khan",
+        "phone": "9868319846"
+    },
+    {
+        "rank": "A.H.C.",
+        "name": "Rajesh Prasad Maurya",
+        "phone": "9867426996"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Indra Kumari Bista",
+        "phone": "9863506033"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Ram Lautan Dagaura",
+        "phone": "9858044947"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Janardan Rawal",
+        "phone": "9702158386"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Sagar BK",
+        "phone": "9840571377"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Dipak Kumar Tiruwa",
+        "phone": "9868157774"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Kamal Tharu",
+        "phone": "9864345565"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Dipak Singh",
+        "phone": "9866728450"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Gobinda Bahadur Thapa Magar",
+        "phone": "9848192710"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Resham Budha",
+        "phone": "9848261385"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Aayush Udas",
+        "phone": "9869970107"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Nim Bahadur Karki",
+        "phone": "9844803294"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Shailendra Bikram Karki",
+        "phone": "9861425039"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Sanjya Kumar Barma",
+        "phone": "9864842333"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Laxmi Sharma",
+        "phone": "9864345745"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Lila Chhetri",
+        "phone": "9868293429"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Bina Chaudhary",
+        "phone": "9868720361"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Yogendar Chaudhary",
+        "phone": "9801485000"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Aashish Chaudhary",
+        "phone": "9866170074"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Aaskah Budha",
+        "phone": "9844881278"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Tikaram Bishwokarma",
+        "phone": "9864345672"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Prem Bahadur Khatri (बिगुलर)",
+        "phone": "9826535053"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Birendra Shris",
+        "phone": "9847055622"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Dinesh Sunar",
+        "phone": "9868681055"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Chandra Bahadur Kami",
+        "phone": "9864356743"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Karam BK",
+        "phone": "9844866990"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Man Bahadur Chaudhary",
+        "phone": "9809513744"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Topraj Kumal",
+        "phone": "9862273086"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Kishor KC",
+        "phone": "9848106161"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Anjira Chaudhary",
+        "phone": "9863356285"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Bijay Kumar Gharti",
+        "phone": "9867748670"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Keshav Sharma",
+        "phone": "9868039749"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Akshya Kumar Tharu",
+        "phone": "9849331685"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Kamal Joshi",
+        "phone": "9822432789"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Anil Bishwokarma",
+        "phone": "9768322552"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Poman Pun Magar",
+        "phone": "9841137057"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Pawan Shahi",
+        "phone": "9868143985"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Prakash Sharma Baral",
+        "phone": "9802554439"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Ram Bahadur Tharu",
+        "phone": "9842346225"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Bishnu Dayal Loniya",
+        "phone": "9864782712"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Prem Kumar Thapa",
+        "phone": "9865060211"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Anup Kumar Tharu",
+        "phone": "9841880054"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Prem Prasad Tharu",
+        "phone": "9807521334"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Meghraj Kumal",
+        "phone": "9864441013"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Keshab Aslami",
+        "phone": "9741856206"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Kamala Oli",
+        "phone": "9869307751"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Anju Sunar",
+        "phone": "9868219135"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Mina Kumari Budhathoki",
+        "phone": "9842714791"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Anuradha Kumari Panday",
+        "phone": "9842806503"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Prem Bahadur Tharu ",
+        "phone": "9826518203"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Ajay Kumar Chaudhary",
+        "phone": "9847387746"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Mohan Bahadur Thada",
+        "phone": "9842806825"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Umesh Bahadur Thapa Magar",
+        "phone": "9860420356"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Om Prakash Singh Thakuri",
+        "phone": "9858091030"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Praduman Murav",
+        "phone": "9811563387"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Umesh Khadka",
+        "phone": "9741798571"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Gobinda Chidimar",
+        "phone": "9822509879"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Dipak Pariyar",
+        "phone": "9866649380"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Dipendra Tharu",
+        "phone": "9867969253"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Namraj Khanal",
+        "phone": "9867453082"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Dhruba Prasad Tharu",
+        "phone": "9821589127"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Madhab Bhugae",
+        "phone": "9857090734"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Prakash Budhathoki",
+        "phone": "9847932715"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Bishnu Sunar",
+        "phone": "9744307699"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Nannakala Budha",
+        "phone": "9866750314"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Asmita Khatri",
+        "phone": "9744269403"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Nitisha Chaudhary",
+        "phone": "9814521951"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Diptika Khadka",
+        "phone": "9844837852"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Uma Kumari Budhathoki",
+        "phone": "9829602760"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Surendra Oli",
+        "phone": "9843771271"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Man Bahadur Khatri",
+        "phone": "9829688145"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Raman Singh",
+        "phone": "9826570193"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Navraj Bhandari",
+        "phone": "9804161841"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Shishir Luitel",
+        "phone": "9868223519"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Min Bahadur Hamal Thakuri",
+        "phone": "9745968445"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Indra Chalaune ",
+        "phone": "9765594042"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Kamal Bhatta",
+        "phone": "9862472305"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Kalpana Kumari Lekhak",
+        "phone": "9869904152"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Puja Somai Magar",
+        "phone": "9822449653"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Purna Gharti Khatri",
+        "phone": "9829697589"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Junisar Rawat",
+        "phone": "9745881125"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Uma Devi Basnet",
+        "phone": "9768451470"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Tulsi Kumari Nepali",
+        "phone": "9863172373"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Kranti Rijal",
+        "phone": "9841549628"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Kabita Budha Magar",
+        "phone": "9745899462"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Basanta Rokaya",
+        "phone": "9866611408"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Nirmala Gharti Magar",
+        "phone": "9866880655"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Devi Namjali Magar",
+        "phone": "9849613081"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Janak Kumari Tharu",
+        "phone": "9762834682"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Sarita Tharu",
+        "phone": "9866200274"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Karishma Bohara",
+        "phone": "9844483690"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Pratikhya Thapa Magar",
+        "phone": "9769275803"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Bishal Budha Magar",
+        "phone": "9865604871"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Nagendra Bahadur Shahi ",
+        "phone": "9858092123"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Yadav Thapa",
+        "phone": "9800542855"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Bijay Sunar (A)",
+        "phone": "9842809950"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Pradip Kumar Yadav",
+        "phone": "9709012320"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Injina Susling Magar",
+        "phone": "9866150851"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Pratima BK",
+        "phone": "9841392987"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Yashoda KM",
+        "phone": "9745625605"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Bhagwati Budha",
+        "phone": "9812450655"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Manisha Sherestha",
+        "phone": "9867201150"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Karina Chaudhary",
+        "phone": "9822990191"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Anjali Sunar",
+        "phone": "9806226112"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Posha Kumal",
+        "phone": "9868623088"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Sirjana Kumar",
+        "phone": "9826458116"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Puja Chaudhary",
+        "phone": "9848366465"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Bandana Tharu",
+        "phone": "9815517878"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Motisara BK",
+        "phone": "9869657112"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Karuna Batha",
+        "phone": "9819533809"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Kalpana Sarki",
+        "phone": "9863507890"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Man Kumari Oli",
+        "phone": "9819561204"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Dom Bahadur Reshmi",
+        "phone": "9867201378"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Bhim Bahadur Marsangi",
+        "phone": "9748832925"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Hem Raj Chaudhary",
+        "phone": "9816469502"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Sunil Kohar",
+        "phone": "9825486388"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Kamalmani Khanal",
+        "phone": "9867395398"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Jivan Bista",
+        "phone": "9852890347"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Nim Bahadur Khatri Chhetri",
+        "phone": "9809838292"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Anil BK",
+        "phone": "9809898791"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Sagar Bala",
+        "phone": "9843985148"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Anish Adhikari",
+        "phone": "9848037908"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Saroj Bahadur Aryal",
+        "phone": "9843694973"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Sandesh Tharu",
+        "phone": "9800507152"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Manoj Ghale",
+        "phone": "9812417857"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Aashish Kumar Bista",
+        "phone": "9869278372"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Krisna Bahadur Thapa",
+        "phone": "9844177856"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Bijay BK",
+        "phone": "9809797082"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Badri Narayan Chaudhary",
+        "phone": "9822982810"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Bhuwan KC",
+        "phone": "9868668962"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Nar Bahadur Gharti Magar",
+        "phone": "9866986263"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Puskar Khatri Bhattarai",
+        "phone": "9863795329"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Pravin Kunwar",
+        "phone": "9864416942"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Ramit Karki",
+        "phone": "9863583669"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Adip Kumar Gaha",
+        "phone": "9847064248"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Lil Bahadur Khangaha",
+        "phone": "9841569494"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Pravin Baniya",
+        "phone": "9744313151"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Sunil Pun Magar",
+        "phone": "9748707225"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Bhupal Giri",
+        "phone": "9842890246"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Shekhar BK",
+        "phone": "9814059656"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Dasharath Oli",
+        "phone": "9843423382"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Keshav Pun",
+        "phone": "9749758631"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Tej Bahadur Rai",
+        "phone": "9817457091"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Tej Bahadur Sunar",
+        "phone": "9824517610"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Purna Bahadur BK",
+        "phone": "9745543192"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Bhuwan Budhathoki",
+        "phone": "9869651009"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Bigyan Jhakri",
+        "phone": "9863138119"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Yam Narayan Tharu",
+        "phone": "9846943584"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Janak Pariyar",
+        "phone": "9826575569"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Hari Bahadur Khadka",
+        "phone": "9866750779"
+    },
+    {
+        "rank": "P.C.",
+        "name": "Lila Budhathoki",
+        "phone": "9864867322"
+    },
+    {
+        "rank": "Follower",
+        "name": "Ram Prasad Tharu",
+        "phone": "9848060108"
+    },
+    {
+        "rank": "Follower",
+        "name": "Radhe Shyam Kori",
+        "phone": "9868081647"
+    },
+    {
+        "rank": "Follower",
+        "name": "Narayan Sapkota",
+        "phone": "9769956339"
+    },
+    {
+        "rank": "Follower",
+        "name": "Sunil Kumar Nau",
+        "phone": "9816580699"
+    },
+    {
+        "rank": "Follower",
+        "name": "Mukesh Balmiki",
+        "phone": "9812468820"
+    },
+    {
+        "rank": "Follower",
+        "name": "Misar Bhandari",
+        "phone": "9868155868"
+    },
+    {
+        "rank": "Follower",
+        "name": "Ramkali Kumari Tharu",
+        "phone": "9841886831"
+    },
+    {
+        "rank": "Follower",
+        "name": "Kalyan Ram Parki",
+        "phone": "9868735714"
+    },
+    {
+        "rank": "Follower",
+        "name": "Naresh Bahadur Nepali",
+        "phone": "9869157092"
+    },
+    {
+        "rank": "Follower",
+        "name": "Chand Babu Behana",
+        "phone": "9868370478"
+    },
+    {
+        "rank": "Follower",
+        "name": "Baburam Sarki",
+        "phone": "9863506396"
+    },
+    {
+        "rank": "Follower",
+        "name": "Shivram Dhobi",
+        "phone": "9804548821"
+    },
+    {
+        "rank": "Follower",
+        "name": "Harilal Khadka",
+        "phone": "9866868322"
+    },
+    {
+        "rank": "Follower",
+        "name": "Pramod Khatik",
+        "phone": "9849319479"
+    },
+    {
+        "rank": "Follower",
+        "name": "Rahika Kumari Chaulagae",
+        "phone": "9849314223"
+    },
+    {
+        "rank": "Follower",
+        "name": "Parbati Tharu",
+        "phone": "9816515924"
+    },
+    {
+        "rank": "Follower",
+        "name": "Susmita Sunar",
+        "phone": "9843290450"
     }
 ]
