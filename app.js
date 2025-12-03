@@ -39,9 +39,9 @@ function searchContact() {
     resultDiv.innerHTML = filteredContacts.map(contact => {
       return `
         <div class="contact-result">
-          <p>Rank: ${contact.rank}</p>
-          <p>Name: ${contact.name}</p>
-          <p>Phone: ${contact.phone}</p>
+          <p>Rank/ दर्जा: ${contact.rank}</p>
+          <p>Name/ नाम: ${contact.name}</p>
+          <p>Phone/ मो.नं.: ${contact.phone}</p>
           <button onclick="makeCall('${contact.phone}')">Call</button>
         </div>
       `;
@@ -58,3 +58,4 @@ function makeCall(phoneNumber) {
 
 // Fetch data when the page is loaded
 document.addEventListener('DOMContentLoaded', fetchData);
+
