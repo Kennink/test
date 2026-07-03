@@ -154,7 +154,7 @@ function searchContact(){
 
     result.innerHTML = filtered.map(contact => `
 
-<div class="contact-card">
+<div class="contact-result">
 
 <div class="top-row">
 
