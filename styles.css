@@ -662,4 +662,36 @@ header h1{
 
 }
 
+    .copy-btn{
+
+    margin-top:12px;
+
+    width:100%;
+
+    background:#fff;
+
+    color:#0A4D9B;
+
+    border:2px solid #0A4D9B;
+
+    padding:12px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.copy-btn:hover{
+
+    background:#0A4D9B;
+
+    color:#fff;
+
+}
+
 }
