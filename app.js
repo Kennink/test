@@ -39,10 +39,10 @@ function searchContact() {
     resultDiv.innerHTML = filteredContacts.map(contact => {
       return `
         <div class="contact-result">
-          <p>Rank/ दर्जा: ${contact.rank}</p>
+          <p>दर्जा: ${contact.rank}</p>
           <p>Name/ नाम: ${contact.name}</p>
-          <p>Phone/ मो.नं.: ${contact.phone}</p>
-          <p>Responsibility/ जिम्मेवारी: ${contact.response}</p>
+          <p>मो.नं.: ${contact.phone}</p>
+          <p>जिम्मेवारी: ${contact.response}</p>
           <p>Blood Group: ${contact.blood}</p>
           <button onclick="makeCall('${contact.phone}')">Call</button>
         </div>
