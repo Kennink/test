@@ -1,6 +1,32 @@
-/* ==========================
-   RESET
-========================== */
+/*==================================================
+    Nepal Police Contact Directory
+    Designed by Shishir Luitel
+==================================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root{
+
+    --primary:#0A4D9B;
+    --primary-dark:#083B75;
+    --secondary:#1D75D3;
+
+    --success:#2E8B57;
+    --danger:#D32F2F;
+
+    --background:#F2F5FA;
+
+    --card:#FFFFFF;
+
+    --text:#1E293B;
+
+    --text-light:#64748B;
+
+    --shadow:0 10px 25px rgba(0,0,0,.08);
+
+    --radius:14px;
+
+}
 
 *{
     margin:0;
@@ -9,93 +35,185 @@
 }
 
 html{
+
     scroll-behavior:smooth;
+
 }
 
 body{
 
-    background:#eef2f7;
+    font-family:'Poppins',sans-serif;
 
-    font-family:
-    "Segoe UI",
-    Arial,
-    sans-serif;
+    background:var(--background);
 
-    color:#222;
+    color:var(--text);
 
-    padding:15px;
+    min-height:100vh;
+
 }
 
 
-/* ==========================
-   CONTAINER
-========================== */
+/*=========================
+        SCROLLBAR
+=========================*/
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#e6ebf3;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:var(--primary);
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:var(--primary-dark);
+
+}
+
+
+/*=========================
+        CONTAINER
+=========================*/
 
 .container{
 
-    max-width:850px;
+    width:95%;
+
+    max-width:900px;
 
     margin:auto;
 
+    padding:20px 0 80px;
+
 }
 
 
-/* ==========================
-   HEADER
-========================== */
+/*=========================
+        HEADER
+=========================*/
 
-.header{
+header{
 
-    background:#003893;
+    background:
+    linear-gradient(
+        135deg,
+        var(--primary),
+        var(--secondary)
+    );
 
     color:white;
 
-    padding:20px;
+    border-radius:18px;
 
-    border-radius:12px;
+    padding:25px;
 
-    text-align:center;
+    display:flex;
 
-    margin-bottom:18px;
+    align-items:center;
 
-    box-shadow:0 4px 10px rgba(0,0,0,.15);
+    gap:18px;
+
+    box-shadow:var(--shadow);
+
+    margin-bottom:25px;
 
 }
 
-.header h1{
+.logo{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:50%;
+
+    background:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:var(--primary);
+
+    font-size:34px;
+
+    flex-shrink:0;
+
+}
+
+header h1{
 
     font-size:30px;
 
-    margin-bottom:6px;
+    font-weight:700;
 
 }
 
-.header p{
+header h3{
 
-    font-size:16px;
+    font-size:15px;
+
+    font-weight:400;
 
     opacity:.95;
 
+    margin-top:4px;
+
 }
 
 
-/* ==========================
-   SEARCH
-========================== */
+/*=========================
+        SEARCH
+=========================*/
+
+.search-container{
+
+    position:sticky;
+
+    top:15px;
+
+    z-index:999;
+
+    margin-bottom:20px;
+
+}
 
 .search-box{
 
     display:flex;
 
-    gap:10px;
+    align-items:center;
 
-    margin-bottom:15px;
+    background:white;
 
-    position:sticky;
+    border-radius:50px;
 
-    top:10px;
+    padding:0 18px;
 
-    z-index:100;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.search-box i{
+
+    color:var(--primary);
+
+    font-size:18px;
 
 }
 
@@ -103,137 +221,69 @@ body{
 
     flex:1;
 
-    padding:15px;
-
-    font-size:17px;
-
-    border:2px solid #003893;
-
-    border-radius:10px;
+    border:none;
 
     outline:none;
 
-    transition:.25s;
+    padding:16px;
 
-}
+    font-size:16px;
 
-#searchInput:focus{
+    font-family:'Poppins',sans-serif;
 
-    box-shadow:0 0 12px rgba(0,56,147,.25);
+    background:transparent;
 
 }
 
 #clearBtn{
 
-    width:55px;
+    width:40px;
+
+    height:40px;
 
     border:none;
 
-    border-radius:10px;
-
-    background:#d32f2f;
-
-    color:white;
-
-    font-size:18px;
+    border-radius:50%;
 
     cursor:pointer;
+
+    background:#EEF4FF;
+
+    color:var(--primary);
+
+    transition:.3s;
 
 }
 
 #clearBtn:hover{
 
-    background:#b71c1c;
+    background:var(--primary);
+
+    color:white;
 
 }
 
 
-/* ==========================
-   RESULT COUNT
-========================== */
+/*=========================
+      RESULT COUNTER
+=========================*/
 
 .stats{
 
-    margin-bottom:15px;
+    margin-bottom:18px;
 
-    font-size:15px;
+    font-weight:600;
 
-    color:#444;
-
-    font-weight:bold;
+    color:var(--primary);
 
 }
 
 
-/* ==========================
-   WELCOME
-========================== */
+/*==================================================
+                CONTACT CARD
+==================================================*/
 
-.welcome{
-
-    background:white;
-
-    border-radius:10px;
-
-    padding:50px 20px;
-
-    text-align:center;
-
-    border:1px solid #ccc;
-
-}
-
-.welcome h2{
-
-    margin-bottom:10px;
-
-    color:#003893;
-
-}
-
-.welcome p{
-
-    color:#555;
-
-}
-
-
-/* ==========================
-   CONTACT CARD
-========================== */
-
-.contact-card{
-
-    background:white;
-
-    border:1px solid #000;
-
-    border-radius:10px;
-
-    margin-bottom:15px;
-
-    padding:15px;
-
-    transition:.2s;
-
-    box-shadow:0 2px 6px rgba(0,0,0,.08);
-
-}
-
-.contact-card:hover{
-
-    transform:translateY(-2px);
-
-    box-shadow:0 6px 15px rgba(0,0,0,.12);
-
-}
-
-
-/* ==========================
-   TOP ROW
-========================== */
-
-.top-row{
+.contact-result{
 
     display:flex;
 
@@ -241,247 +291,374 @@ body{
 
     align-items:center;
 
-    margin-bottom:12px;
+    gap:20px;
+
+    background:var(--card);
+
+    border:1px solid #dbe4ef;
+
+    border-left:6px solid var(--primary);
+
+    border-radius:18px;
+
+    padding:18px;
+
+    margin-bottom:16px;
+
+    box-shadow:var(--shadow);
+
+    transition:.35s ease;
 
 }
 
-.rank{
+.contact-result:hover{
 
-    background:#0056b3;
+    transform:translateY(-4px);
 
-    color:white;
+    box-shadow:0 15px 30px rgba(0,0,0,.12);
 
-    padding:5px 12px;
+}
 
-    border-radius:20px;
+.contact-details{
 
-    font-weight:bold;
+    flex:1;
+
+}
+
+
+/*==================================================
+                INFORMATION ROW
+==================================================*/
+
+.contact-details p{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin:10px 0;
 
     font-size:15px;
 
+    color:var(--text);
+
 }
 
-.blood{
+.contact-details strong{
 
-    background:#d32f2f;
+    min-width:115px;
 
-    color:white;
+    color:var(--primary);
+
+    font-weight:600;
+
+}
+
+
+/*==================================================
+                BADGES
+==================================================*/
+
+.rank-badge{
+
+    display:inline-block;
+
+    background:linear-gradient(135deg,#0056b3,#2b7de9);
+
+    color:#fff;
 
     padding:5px 12px;
 
     border-radius:20px;
 
-    font-weight:bold;
+    font-size:13px;
+
+    font-weight:600;
+
+}
+
+.blood-badge{
+
+    display:inline-block;
+
+    background:linear-gradient(135deg,#d32f2f,#ff5d5d);
+
+    color:#fff;
+
+    padding:5px 12px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+    font-weight:600;
 
 }
 
 
-/* ==========================
-   NAME
-========================== */
+/*==================================================
+                CALL BUTTON
+==================================================*/
 
-.name{
+.call-area{
 
-    font-size:24px;
+    display:flex;
 
-    font-weight:bold;
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.call-btn{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:8px;
+
+    background:linear-gradient(
+        135deg,
+        #28a745,
+        #45c163
+    );
+
+    color:white;
+
+    border:none;
+
+    border-radius:50px;
+
+    padding:14px 24px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+    min-width:130px;
+
+}
+
+.call-btn:hover{
+
+    transform:scale(1.05);
+
+    box-shadow:0 10px 20px rgba(40,167,69,.35);
+
+}
+
+
+/*==================================================
+                EMPTY RESULT
+==================================================*/
+
+.no-result{
+
+    background:white;
+
+    padding:50px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    box-shadow:var(--shadow);
+
+}
+
+.no-result h2{
+
+    color:var(--danger);
 
     margin-bottom:10px;
 
 }
 
 
-/* ==========================
-   DETAILS
-========================== */
+/*==================================================
+                WELCOME
+==================================================*/
 
-.info{
+.welcome{
+
+    background:white;
+
+    padding:70px 20px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    box-shadow:var(--shadow);
+
+}
+
+.welcome i{
+
+    font-size:70px;
+
+    color:var(--primary);
+
+    margin-bottom:20px;
+
+}
+
+.welcome h2{
 
     margin-bottom:12px;
 
 }
 
-.info-row{
+.welcome p{
+
+    color:var(--text-light);
+
+}
+
+
+/*==================================================
+            DEVELOPER CREDIT
+==================================================*/
+
+.developer{
+
+    position:fixed;
+
+    right:20px;
+
+    bottom:20px;
+
+    z-index:9999;
+
+}
+
+.developer a{
 
     display:flex;
 
-    margin-bottom:7px;
+    flex-direction:column;
+
+    align-items:flex-end;
+
+    text-decoration:none;
+
+    background:rgba(255,255,255,.96);
+
+    padding:12px 18px;
+
+    border-radius:18px;
+
+    border:1px solid rgba(10,77,155,.15);
+
+    box-shadow:0 12px 30px rgba(0,0,0,.12);
+
+    transition:.35s;
 
 }
 
-.label{
+.developer a span{
 
-    width:120px;
+    font-size:12px;
 
-    font-weight:bold;
-
-    color:#003893;
+    color:#666;
 
 }
 
-.value{
+.developer a strong{
 
-    flex:1;
+    color:var(--primary);
 
-    word-break:break-word;
+    font-size:15px;
 
-}
-
-
-/* ==========================
-   BUTTON ROW
-========================== */
-
-.button-row{
-
-    display:flex;
-
-    justify-content:flex-end;
-
-    gap:10px;
-
-    margin-top:10px;
+    margin-top:2px;
 
 }
 
+.developer a:hover{
 
-/* ==========================
-   BUTTONS
-========================== */
+    transform:translateY(-4px);
 
-.call-btn{
-
-    background:#28a745;
-
-    color:white;
-
-    border:none;
-
-    padding:10px 20px;
-
-    border-radius:8px;
-
-    cursor:pointer;
-
-    font-weight:bold;
-
-    transition:.2s;
-
-}
-
-.call-btn:hover{
-
-    background:#1f8a39;
-
-}
-
-.copy-btn{
-
-    background:#0d6efd;
-
-    color:white;
-
-    border:none;
-
-    padding:10px 18px;
-
-    border-radius:8px;
-
-    cursor:pointer;
-
-    font-weight:bold;
-
-}
-
-.copy-btn:hover{
-
-    background:#084298;
+    box-shadow:0 16px 35px rgba(0,74,173,.22);
 
 }
 
 
-/* ==========================
-   NO RESULT
-========================== */
+/*==================================================
+                MOBILE
+==================================================*/
 
-.no-result{
+@media(max-width:768px){
 
-    background:white;
+header{
 
-    padding:40px;
-
-    border-radius:10px;
+    flex-direction:column;
 
     text-align:center;
 
-    border:1px solid #ccc;
+}
 
-    color:#777;
+.logo{
+
+    width:60px;
+
+    height:60px;
+
+    font-size:28px;
 
 }
 
-
-/* ==========================
-   HIGHLIGHT
-========================== */
-
-mark{
-
-    background:yellow;
-
-    padding:0 2px;
-
-}
-
-
-/* ==========================
-   MOBILE
-========================== */
-
-@media(max-width:650px){
-
-.header h1{
+header h1{
 
     font-size:24px;
 
 }
 
-.header p{
-
-    font-size:14px;
-
-}
-
-.name{
-
-    font-size:20px;
-
-}
-
-.info-row{
+.contact-result{
 
     flex-direction:column;
 
-}
-
-.label{
-
-    width:auto;
-
-    margin-bottom:2px;
+    align-items:stretch;
 
 }
 
-.button-row{
+.call-area{
 
-    flex-direction:column;
+    margin-top:15px;
 
 }
 
-.call-btn,
-.copy-btn{
+.call-btn{
 
     width:100%;
+
+}
+
+.contact-details strong{
+
+    min-width:95px;
+
+}
+
+.developer{
+
+    right:10px;
+
+    bottom:10px;
+
+}
+
+.developer a{
+
+    padding:10px 14px;
 
 }
 
