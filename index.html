@@ -1,22 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Phonebook Search</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="container">
-    <h1>लुम्बिनी प्रदेश प्रहरी गण खजुरा, बाँके</h1>
-    <h2>                             </h2>
-    <h2>Phonebook Search</h2>
-    <input type="text" id="searchInput" placeholder="Search by name (English and Nepali)" oninput="searchContact()">
-    <div id="result">
-      <p>Search results will appear here...</p>
-    </div>
-  </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <script src="app.js"></script>
+    <title>Nepal Police Contact Directory</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <meta name="theme-color" content="#003893">
+</head>
+
+<body>
+
+<div class="container">
+
+    <header class="header">
+
+        <div class="header-text">
+            <h1>नेपाल प्रहरी</h1>
+            <p>लुम्बिनी प्रदेश प्रहरी गण, खजुरा, बाँके</p>
+        </div>
+
+    </header>
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="🔍 नाम, दर्जा, मोबाइल, जिम्मेवारी वा Blood Group खोज्नुहोस्..."
+            autocomplete="off">
+
+        <button id="clearBtn" title="Clear Search">
+            ✖
+        </button>
+
+    </div>
+
+    <div class="stats">
+
+        <span id="totalContacts">
+            Loading contacts...
+        </span>
+
+    </div>
+
+    <div id="result">
+
+        <div class="welcome">
+
+            <h2>👮 Nepal Police Contact Directory</h2>
+
+            <p>
+                Search by Name, Rank, Phone Number,
+                Responsibility or Blood Group.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+
 </body>
 </html>
