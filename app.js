@@ -19,7 +19,13 @@ async function fetchData() {
 
     try {
 
-        const response = await fetch(`contacts.json?${Date.now()}`);
+        const response = await fetch("./contacts.json");
+
+console.log(response.status, response.ok);
+
+if (!response.ok) {
+    throw new Error("HTTP " + response.status);
+}
 
         contacts = await response.json();
 
