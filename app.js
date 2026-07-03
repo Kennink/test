@@ -188,15 +188,7 @@ function searchContact(){
     </div>
 
     <div class="call-area">
-    <button
-class="copy-btn"
-onclick="copyNumber('${contact.phone}')">
 
-<i class="fa-solid fa-copy"></i>
-
-Copy
-
-</button>
 
         <button
             class="call-btn"
@@ -207,6 +199,15 @@ Copy
             Call
 
         </button>
+            <button
+class="copy-btn"
+onclick="copyNumber('${contact.phone}')">
+
+<i class="fa-solid fa-copy"></i>
+
+Copy
+
+</button>
 
     </div>
 
