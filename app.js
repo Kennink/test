@@ -43,6 +43,7 @@ function searchContact() {
           <p>Name/ नाम: ${contact.name}</p>
           <p>Phone/ मो.नं.: ${contact.phone}</p>
           <p>Responsibility/ जिम्मेवारी: ${contact.response}</p>
+          <p>Blood Group: ${contact.blood}</p>
           <button onclick="makeCall('${contact.phone}')">Call</button>
         </div>
       `;
