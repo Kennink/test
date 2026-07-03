@@ -42,6 +42,7 @@ function searchContact() {
           <p>Rank/ दर्जा: ${contact.rank}</p>
           <p>Name/ नाम: ${contact.name}</p>
           <p>Phone/ मो.नं.: ${contact.phone}</p>
+          <p>Responsibility/ जिम्मेवारी.: ${contact.response}</p>
           <button onclick="makeCall('${contact.phone}')">Call</button>
         </div>
       `;
