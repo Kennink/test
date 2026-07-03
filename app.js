@@ -88,25 +88,27 @@ function highlight(text, keyword){
 // Search Function
 // =============================
 
-function searchContact() {
+function searchContact(){
 
-    const keyword = document.getElementById("searchInput")
-        .value
-        .trim()
-        .toLowerCase();
+    const keyword = searchInput.value.trim().toLowerCase();
 
-    const resultDiv = document.getElementById("result");
+    if(keyword===""){
 
-    if (keyword === "") {
+        result.innerHTML = `
+            <div class="welcome">
+                <h2>👮 Nepal Police Contact Directory</h2>
+                <p>Start typing to search contacts.</p>
+            </div>
+        `;
 
-        resultDiv.innerHTML =
-            "<p>Search results will appear here...</p>";
+        totalContacts.innerHTML =
+            `Total Contacts : <b>${contacts.length}</b>`;
 
         return;
 
     }
 
-    const filteredContacts = contacts.filter(contact =>
+    const filtered = contacts.filter(contact =>
 
         (contact.name || "").toLowerCase().includes(keyword) ||
 
@@ -122,36 +124,120 @@ function searchContact() {
 
     );
 
-    if(filteredContacts.length===0){
+    totalContacts.innerHTML =
+        `Showing <b>${filtered.length}</b> of <b>${contacts.length}</b> contacts`;
 
-        resultDiv.innerHTML="<p>No contact found.</p>";
+    if(filtered.length===0){
+
+        result.innerHTML = `
+            <div class="no-result">
+                <h2>😔</h2>
+                <p>No contact found.</p>
+            </div>
+        `;
 
         return;
 
     }
 
-    resultDiv.innerHTML = filteredContacts.map(contact=>`
+    result.innerHTML = filtered.map(contact => `
 
-<div class="contact-result">
+<div class="contact-card">
 
-<div class="contact-details">
+<div class="top-row">
 
-<p><strong>दर्जा :</strong> ${contact.rank}</p>
+<div class="rank">
 
-<p><strong>नाम :</strong> ${contact.npname}</p>
-
-<p><strong>मो. नं. :</strong> ${contact.phone}</p>
-
-<p><strong>जिम्मेवारी :</strong> ${contact.response}</p>
-
-<p><strong>Blood Group :</strong> ${contact.blood}</p>
+${highlight(contact.rank,keyword)}
 
 </div>
 
-<div>
+<div class="blood">
 
-<button class="call-btn"
+🩸 ${highlight(contact.blood,keyword)}
 
+</div>
+
+</div>
+
+<div class="name">
+
+${highlight(contact.npname,keyword)}
+
+</div>
+
+<div class="info">
+
+<div class="info-row">
+
+<div class="label">
+मोबाइल
+</div>
+
+<div class="value">
+
+${highlight(contact.phone,keyword)}
+
+</div>
+
+</div>
+
+<div class="info-row">
+
+<div class="label">
+दर्जा
+</div>
+
+<div class="value">
+
+${highlight(contact.rank,keyword)}
+
+</div>
+
+</div>
+
+<div class="info-row">
+
+<div class="label">
+जिम्मेवारी
+</div>
+
+<div class="value">
+
+${highlight(contact.response,keyword)}
+
+</div>
+
+</div>
+
+<div class="info-row">
+
+<div class="label">
+Blood Group
+</div>
+
+<div class="value">
+
+${highlight(contact.blood,keyword)}
+
+</div>
+
+</div>
+
+</div>
+
+<div class="button-row">
+
+<button
+class="copy-btn"
+onclick="copyNumber('${contact.phone}')">
+
+📋 Copy
+
+</button>
+
+<button
+class="call-btn"
 onclick="makeCall('${contact.phone}')">
 
 📞 Call
