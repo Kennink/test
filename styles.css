@@ -1,773 +1,275 @@
 /*==================================================
-    Nepal Police Contact Directory
-    Designed by Shishir Luitel
+    Nepal Police Contact Directory (CLEAN VERSION)
 ==================================================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-:root{
+:root {
+    --primary: #0A4D9B;
+    --primary-dark: #083B75;
+    --secondary: #1D75D3;
 
-    --primary:#0A4D9B;
-    --primary-dark:#083B75;
-    --secondary:#1D75D3;
+    --success: #2E8B57;
+    --danger: #D32F2F;
 
-    --success:#2E8B57;
-    --danger:#D32F2F;
+    --background: #F2F5FA;
+    --card: #FFFFFF;
 
-    --background:#F2F5FA;
+    --text: #1E293B;
+    --text-light: #64748B;
 
-    --card:#FFFFFF;
-
-    --text:#1E293B;
-
-    --text-light:#64748B;
-
-    --shadow:0 10px 25px rgba(0,0,0,.08);
-
-    --radius:14px;
-
+    --shadow: 0 10px 25px rgba(0,0,0,.08);
 }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-html{
-
-    scroll-behavior:smooth;
-
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--background);
+    color: var(--text);
 }
 
-body{
-
-    font-family:'Poppins',sans-serif;
-
-    background:var(--background);
-
-    color:var(--text);
-
-    min-height:100vh;
-
+/* CONTAINER */
+.container {
+    width: 95%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px 0 80px;
 }
 
-
-/*=========================
-        SCROLLBAR
-=========================*/
-
-::-webkit-scrollbar{
-
-    width:10px;
-
+/* HEADER */
+header {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: white;
+    border-radius: 18px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    box-shadow: var(--shadow);
+    margin-bottom: 25px;
 }
 
-::-webkit-scrollbar-track{
-
-    background:#e6ebf3;
-
+.logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+    font-size: 34px;
 }
 
-::-webkit-scrollbar-thumb{
-
-    background:var(--primary);
-
-    border-radius:20px;
-
+/* SEARCH */
+.search-container {
+    position: sticky;
+    top: 15px;
+    z-index: 999;
+    margin-bottom: 20px;
 }
 
-::-webkit-scrollbar-thumb:hover{
-
-    background:var(--primary-dark);
-
+.search-box {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 50px;
+    padding: 0 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
 }
 
-
-/*=========================
-        CONTAINER
-=========================*/
-
-.container{
-
-    width:95%;
-
-    max-width:900px;
-
-    margin:auto;
-
-    padding:20px 0 80px;
-
+.search-box i {
+    color: var(--primary);
 }
 
-
-/*=========================
-        HEADER
-=========================*/
-
-header{
-
-    background:
-    linear-gradient(
-        135deg,
-        var(--primary),
-        var(--secondary)
-    );
-
-    color:white;
-
-    border-radius:18px;
-
-    padding:25px;
-
-    display:flex;
-
-    align-items:center;
-
-    gap:18px;
-
-    box-shadow:var(--shadow);
-
-    margin-bottom:25px;
-
+#searchInput {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 16px;
+    font-size: 16px;
+    background: transparent;
 }
 
-.logo{
-
-    width:70px;
-
-    height:70px;
-
-    border-radius:50%;
-
-    background:white;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    color:var(--primary);
-
-    font-size:34px;
-
-    flex-shrink:0;
-
+/* STATS */
+.stats {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: var(--primary);
 }
 
-header h1{
-
-    font-size:30px;
-
-    font-weight:700;
-
+/* CONTACT CARD */
+.contact-result {
+    display: grid;
+    grid-template-columns: 1fr 140px;
+    gap: 20px;
+    background: var(--card);
+    border-left: 6px solid var(--primary);
+    border-radius: 18px;
+    padding: 20px;
+    margin-bottom: 18px;
+    box-shadow: var(--shadow);
+    transition: 0.3s;
 }
 
-header h3{
-
-    font-size:15px;
-
-    font-weight:400;
-
-    opacity:.95;
-
-    margin-top:4px;
-
+.contact-result:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 35px rgba(0,0,0,.12);
 }
 
-
-/*=========================
-        SEARCH
-=========================*/
-
-.search-container{
-
-    position:sticky;
-
-    top:15px;
-
-    z-index:999;
-
-    margin-bottom:20px;
-
+/* DETAILS */
+.contact-details p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
+    font-size: 15px;
 }
 
-.search-box{
-
-    display:flex;
-
-    align-items:center;
-
-    background:white;
-
-    border-radius:50px;
-
-    padding:0 18px;
-
-    box-shadow:0 8px 20px rgba(0,0,0,.08);
-
+.contact-details strong {
+    min-width: 100px;
+    color: var(--primary);
 }
 
-.search-box i{
-
-    color:var(--primary);
-
-    font-size:18px;
-
+/* BADGES */
+.rank-badge {
+    background: linear-gradient(135deg, #0056b3, #2b7de9);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
 }
 
-#searchInput{
-
-    flex:1;
-
-    border:none;
-
-    outline:none;
-
-    padding:16px;
-
-    font-size:16px;
-
-    font-family:'Poppins',sans-serif;
-
-    background:transparent;
-
+.blood-badge {
+    background: linear-gradient(135deg, #d32f2f, #ff5d5d);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
 }
 
-#clearBtn{
-
-    width:40px;
-
-    height:40px;
-
-    border:none;
-
-    border-radius:50%;
-
-    cursor:pointer;
-
-    background:#EEF4FF;
-
-    color:var(--primary);
-
-    transition:.3s;
-
+/* ACTION AREA */
+.call-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
 }
 
-#clearBtn:hover{
-
-    background:var(--primary);
-
-    color:white;
-
-}
-
-
-/*=========================
-      RESULT COUNTER
-=========================*/
-
-.stats{
-
-    margin-bottom:18px;
-
-    font-weight:600;
-
-    color:var(--primary);
-
-}
-
-
-/*==================================================
-                CONTACT CARD
-==================================================*/
-
-.contact-result{
-
-    display:grid;
-
-    grid-template-columns:1fr 130px;
-
-    gap:20px;
-
-    background:#fff;
-
-    border-radius:18px;
-
-    border-left:6px solid #0A4D9B;
-
-    border:1px solid #d8e3f2;
-
-    padding:20px;
-
-    margin-bottom:18px;
-
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
-
-    transition:.3s;
-
-}
-
-.contact-result:hover{
-
-    transform:translateY(-4px);
-
-    box-shadow:0 18px 35px rgba(0,0,0,.12);
-
-}
-
-.call-area{
-
-    display:flex;
-
-    flex-direction:column;
-
-    justify-content:center;
-
-    gap:12px;
-
-}
-
+/* BUTTONS */
 .call-btn,
-.copy-btn{
-
-    width:100%;
-
-    height:48px;
-
-    border-radius:50px;
-
-    font-weight:600;
-
-    font-size:15px;
-
+.copy-btn {
+    width: 100%;
+    height: 45px;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
 }
 
-
-/*==================================================
-                INFORMATION ROW
-==================================================*/
-
-.contact-details p{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:10px;
-
-    margin:10px 0;
-
-    font-size:15px;
-
-    color:var(--text);
-
+/* CALL */
+.call-btn {
+    background: linear-gradient(135deg, #28a745, #45c163);
+    color: white;
 }
 
-.contact-details strong{
-
-    min-width:115px;
-
-    color:var(--primary);
-
-    font-weight:600;
-
+.call-btn:hover {
+    transform: scale(1.05);
 }
 
-
-/*==================================================
-                BADGES
-==================================================*/
-
-.rank-badge{
-
-    display:inline-block;
-
-    background:linear-gradient(135deg,#0056b3,#2b7de9);
-
-    color:#fff;
-
-    padding:5px 12px;
-
-    border-radius:20px;
-
-    font-size:13px;
-
-    font-weight:600;
-
+/* COPY */
+.copy-btn {
+    background: white;
+    border: 2px solid var(--primary);
+    color: var(--primary);
 }
 
-.blood-badge{
-
-    display:inline-block;
-
-    background:linear-gradient(135deg,#d32f2f,#ff5d5d);
-
-    color:#fff;
-
-    padding:5px 12px;
-
-    border-radius:20px;
-
-    font-size:13px;
-
-    font-weight:600;
-
+.copy-btn:hover {
+    background: var(--primary);
+    color: white;
 }
 
-
-/*==================================================
-                CALL BUTTON
-==================================================*/
-
-.call-area{
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
+/* EMPTY */
+.no-result {
+    background: white;
+    padding: 50px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: var(--shadow);
 }
 
-.call-btn{
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    gap:8px;
-
-    background:linear-gradient(
-        135deg,
-        #28a745,
-        #45c163
-    );
-
-    color:white;
-
-    border:none;
-
-    border-radius:50px;
-
-    padding:14px 24px;
-
-    cursor:pointer;
-
-    font-size:15px;
-
-    font-weight:600;
-
-    transition:.3s;
-
-    min-width:130px;
-
+/* WELCOME */
+.welcome {
+    background: white;
+    padding: 60px 20px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: var(--shadow);
 }
 
-.call-btn:hover{
-
-    transform:scale(1.05);
-
-    box-shadow:0 10px 20px rgba(40,167,69,.35);
-
+/* DEVELOPER */
+.developer {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
 }
 
-
-/*==================================================
-                EMPTY RESULT
-==================================================*/
-
-.no-result{
-
-    background:white;
-
-    padding:50px;
-
-    border-radius:18px;
-
-    text-align:center;
-
-    box-shadow:var(--shadow);
-
+.developer a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-decoration: none;
+    background: rgba(255,255,255,.95);
+    padding: 12px 18px;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.12);
 }
 
-.no-result h2{
-
-    color:var(--danger);
-
-    margin-bottom:10px;
-
-}
-
-
-/*==================================================
-                WELCOME
-==================================================*/
-
-.welcome{
-
-    background:white;
-
-    padding:70px 20px;
-
-    border-radius:18px;
-
-    text-align:center;
-
-    box-shadow:var(--shadow);
-
-}
-
-.welcome i{
-
-    font-size:70px;
-
-    color:var(--primary);
-
-    margin-bottom:20px;
-
-}
-
-.welcome h2{
-
-    margin-bottom:12px;
-
-}
-
-.welcome p{
-
-    color:var(--text-light);
-
-}
-
-
-/*==================================================
-            DEVELOPER CREDIT
-==================================================*/
-
-.developer{
-
-    position:fixed;
-
-    right:20px;
-
-    bottom:20px;
-
-    z-index:9999;
-
-}
-
-.developer a{
-
-    display:flex;
-
-    flex-direction:column;
-
-    align-items:flex-end;
-
-    text-decoration:none;
-
-    background:rgba(255,255,255,.96);
-
-    padding:12px 18px;
-
-    border-radius:18px;
-
-    border:1px solid rgba(10,77,155,.15);
-
-    box-shadow:0 12px 30px rgba(0,0,0,.12);
-
-    transition:.35s;
-
-}
-
-.developer a span{
-
-    font-size:12px;
-
-    color:#666;
-
-}
-
-.developer a strong{
-
-    color:var(--primary);
-
-    font-size:15px;
-
-    margin-top:2px;
-
-}
-
-.developer a:hover{
-
-    transform:translateY(-4px);
-
-    box-shadow:0 16px 35px rgba(0,74,173,.22);
-
-}
-
-
-/*==================================================
-                MOBILE
-==================================================*/
-
-@media (max-width:768px){
-
-header{
-
-    flex-direction:column;
-
-    text-align:center;
-
-}
-
-.logo{
-
-    width:60px;
-
-    height:60px;
-
-}
-
-header h1{
-
-    font-size:24px;
-
-}
-
-.contact-result{
-
-    display:grid;
-
-    grid-template-columns:1fr 90px;
-
-    gap:15px;
-
-    padding:18px;
-
-}
-
-.contact-details{
-
-    width:100%;
-
-}
-
-.call-area{
-
-    display:flex;
-
-    flex-direction:column;
-
-    justify-content:flex-start;
-
-    align-items:stretch;
-
-    gap:10px;
-
-}
-
-.call-btn,
-.copy-btn{
-
-    width:90px;
-
-    height:42px;
-
-    font-size:13px;
-
-    padding:0;
-
-}
-
-.contact-details h2{
-
-    font-size:20px;
-
-    margin-bottom:12px;
-
-}
-
-.contact-details p{
-
-    font-size:14px;
-
-    margin:8px 0;
-
-}
-
-.contact-details strong{
-
-    min-width:88px;
-
-}
-
-}
-.developer{
-    right:10px;
-    bottom:10px;
-}
-
-.developer a{
-    padding:10px 14px;
-}
-
-}
-
-.contact-details strong{
-
-    min-width:95px;
-
-}
-
-.developer{
-
-    right:10px;
-
-    bottom:10px;
-
-}
-
-.developer a{
-
-    padding:10px 14px;
-
-}
-
-    .copy-btn{
-
-    margin-top:12px;
-
-    width:100%;
-
-    background:#fff;
-
-    color:#0A4D9B;
-
-    border:2px solid #0A4D9B;
-
-    padding:12px;
-
-    border-radius:50px;
-
-    font-weight:600;
-
-    cursor:pointer;
-
-    transition:.3s;
-
-}
-
-.copy-btn:hover{
-
-    background:#0A4D9B;
-
-    color:#fff;
-
-}
-
+/* MOBILE */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+        font-size: 28px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    .contact-result {
+        grid-template-columns: 1fr 100px;
+        padding: 16px;
+        gap: 15px;
+    }
+
+    .call-btn,
+    .copy-btn {
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .contact-details strong {
+        min-width: 85px;
+    }
+
+    .developer {
+        right: 10px;
+        bottom: 10px;
+    }
 }
