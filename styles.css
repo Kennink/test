@@ -63,8 +63,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--primary);
-    font-size: 34px;
+    overflow: hidden;
+}
+
+.logo img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
 }
 
 /* SEARCH */
