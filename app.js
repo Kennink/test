@@ -19,9 +19,49 @@ async function fetchData() {
 
     try {
 
-        const response = await fetch(`contacts.json?${Date.now()}`);
+        async function fetchData() {
+
+    result.innerHTML = `
+        <div class="welcome">
+            <h2>Loading contacts...</h2>
+        </div>
+    `;
+
+    try {
+
+        const response = await fetch("./contacts.json", {
+            cache: "no-store"
+        });
+
+        if (!response.ok) {
+            throw new Error(`HTTP Error: ${response.status}`);
+        }
 
         contacts = await response.json();
+
+        totalContacts.innerHTML =
+            `Total Contacts : <b>${contacts.length}</b>`;
+
+        result.innerHTML = `
+            <div class="welcome">
+                <h2>👮 Nepal Police Contact Directory</h2>
+                <p>Start typing to search contacts.</p>
+            </div>
+        `;
+
+    } catch (error) {
+
+        console.error("Loading contacts failed:", error);
+
+        result.innerHTML = `
+            <div class="no-result">
+                Unable to load contacts.<br>
+                ${error.message}
+            </div>
+        `;
+    }
+
+}
 
         totalContacts.innerHTML =
             `Total Contacts : <b>${contacts.length}</b>`;
