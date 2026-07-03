@@ -596,49 +596,66 @@ header h3{
                 MOBILE
 ==================================================*/
 
-@media(max-width:768px){
+@media (max-width:768px){
 
 header{
-
     flex-direction:column;
-
     text-align:center;
-
 }
 
 .logo{
-
     width:60px;
-
     height:60px;
-
     font-size:28px;
-
 }
 
 header h1{
-
     font-size:24px;
-
 }
 
+/* Keep card in row */
 .contact-result{
-
-    flex-direction:column;
-
-    align-items:stretch;
-
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:15px;
 }
 
+/* Details take remaining space */
+.contact-details{
+    flex:1;
+    min-width:0;
+}
+
+/* Buttons stay on right */
 .call-area{
-
-    margin-top:15px;
-
+    display:flex;
+    flex-direction:column;
+    width:95px;
+    flex-shrink:0;
+    gap:10px;
 }
 
-.call-btn{
+.call-btn,
+.copy-btn{
+    width:95px;
+    padding:12px 0;
+    font-size:14px;
+}
 
-    width:100%;
+.contact-details strong{
+    min-width:90px;
+}
+
+.developer{
+    right:10px;
+    bottom:10px;
+}
+
+.developer a{
+    padding:10px 14px;
+}
 
 }
 
