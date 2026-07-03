@@ -1,69 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Nepal Police Contact Directory</title>
+<meta charset="UTF-8">
 
-    <link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="theme-color" content="#003893">
+<title>Nepal Police Contact Directory</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 </head>
 
 <body>
 
 <div class="container">
 
-    <header class="header">
+<header>
 
-        <div class="header-text">
-            <h1>नेपाल प्रहरी</h1>
-            <p>लुम्बिनी प्रदेश प्रहरी गण, खजुरा, बाँके</p>
-        </div>
+<div class="logo">
 
-    </header>
+<i class="fa-solid fa-shield-halved"></i>
 
-    <div class="search-box">
+</div>
 
-        <input
-            type="text"
-            id="searchInput"
-            placeholder="🔍 नाम, दर्जा, मोबाइल, जिम्मेवारी वा Blood Group खोज्नुहोस्..."
-            autocomplete="off">
+<div>
 
-        <button id="clearBtn" title="Clear Search">
-            ✖
-        </button>
+<h1>नेपाल प्रहरी</h1>
 
-    </div>
+<h3>Lumbini Province Police Office</h3>
 
-    <div class="stats">
+</div>
 
-        <span id="totalContacts">
-            Search Result will appear here....
-        </span>
+</header>
 
-    </div>
+<div class="search-container">
 
-    <div id="result">
+<div class="search-box">
 
-        <div class="welcome">
+<i class="fa-solid fa-magnifying-glass"></i>
 
-            <h2>👮 Nepal Police Contact Directory</h2>
+<input
 
-            <p>
-                Search by Name, Rank, Phone Number,
-                Responsibility or Blood Group.
-            </p>
+id="searchInput"
 
-        </div>
+type="text"
 
-    </div>
+placeholder="Search by Name, Rank, Phone, Blood Group..."
+
+onkeyup="searchContact()"
+
+autocomplete="off">
+
+<button id="clearBtn">
+
+<i class="fa-solid fa-xmark"></i>
+
+</button>
+
+</div>
+
+</div>
+
+<div class="stats">
+
+<span id="resultCount">
+
+Loading Contacts...
+
+</span>
+
+</div>
+
+<div id="result">
+
+<div class="welcome">
+
+<i class="fa-solid fa-address-book"></i>
+
+<h2>Police Contact Directory</h2>
+
+<p>
+
+Start typing to search officers.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="developer">
+
+<a href="tel:98XXXXXXXXXX">
+
+<span>Developed by</span>
+
+<strong>Shishir Luitel</strong>
+
+</a>
 
 </div>
 
 <script src="app.js"></script>
 
 </body>
+
 </html>
