@@ -40,7 +40,7 @@ function searchContact() {
       return `
         <div class="contact-result">
           <p>दर्जा: ${contact.rank}</p>
-          <p>Name/ नाम: ${contact.name}</p>
+          <p>नाम: ${contact.npname}</p>
           <p>मो.नं.: ${contact.phone}</p>
           <p>जिम्मेवारी: ${contact.response}</p>
           <p>Blood Group: ${contact.blood}</p>
