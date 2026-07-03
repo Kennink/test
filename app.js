@@ -156,107 +156,50 @@ function searchContact(){
 
 <div class="contact-result">
 
-<div class="top-row">
+    <div class="contact-details">
 
-<div class="rank">
+        <h2>${highlight(contact.npname, keyword)}</h2>
 
-${highlight(contact.rank,keyword)}
+        <p>
+            <strong><i class="fa-solid fa-user-shield"></i> दर्जा</strong>
+            <span class="rank-badge">
+                ${highlight(contact.rank, keyword)}
+            </span>
+        </p>
 
-</div>
+        <p>
+            <strong><i class="fa-solid fa-phone"></i> मोबाइल</strong>
+            ${highlight(contact.phone || "-", keyword)}
+        </p>
 
-<div class="blood">
+        <p>
+            <strong><i class="fa-solid fa-briefcase"></i> जिम्मेवारी</strong>
+            ${highlight(contact.response || "-", keyword)}
+        </p>
 
-🩸 ${highlight(contact.blood,keyword)}
+        <p>
+            <strong><i class="fa-solid fa-droplet"></i> Blood Group</strong>
 
-</div>
+            <span class="blood-badge">
+                ${highlight(contact.blood || "-", keyword)}
+            </span>
+        </p>
 
-</div>
+    </div>
 
-<div class="name">
+    <div class="call-area">
 
-${highlight(contact.npname,keyword)}
+        <button
+            class="call-btn"
+            onclick="makeCall('${contact.phone}')">
 
-</div>
+            <i class="fa-solid fa-phone"></i>
 
-<div class="info">
+            Call
 
-<div class="info-row">
+        </button>
 
-<div class="label">
-मोबाइल
-</div>
-
-<div class="value">
-
-${highlight(contact.phone,keyword)}
-
-</div>
-
-</div>
-
-<div class="info-row">
-
-<div class="label">
-दर्जा
-</div>
-
-<div class="value">
-
-${highlight(contact.rank,keyword)}
-
-</div>
-
-</div>
-
-<div class="info-row">
-
-<div class="label">
-जिम्मेवारी
-</div>
-
-<div class="value">
-
-${highlight(contact.response,keyword)}
-
-</div>
-
-</div>
-
-<div class="info-row">
-
-<div class="label">
-Blood Group
-</div>
-
-<div class="value">
-
-${highlight(contact.blood,keyword)}
-
-</div>
-
-</div>
-
-</div>
-
-<div class="button-row">
-
-<button
-class="copy-btn"
-onclick="copyNumber('${contact.phone}')">
-
-📋 Copy
-
-</button>
-
-<button
-class="call-btn"
-onclick="makeCall('${contact.phone}')">
-
-📞 Call
-
-</button>
-
-</div>
+    </div>
 
 </div>
 
