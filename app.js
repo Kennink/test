@@ -1,63 +1,277 @@
 let contacts = [];
 
-// Fetch the contact data from the JSON file
-function fetchData() {
-  // Add a unique query parameter (timestamp) to the URL to force reload
-  const timestamp = new Date().getTime();
-  const jsonUrl = `contacts.json?${timestamp}`;
-  
-  fetch(jsonUrl)
-    .then(response => response.json())
-    .then(data => {
-      contacts = data;
-      console.log("Contacts loaded:", contacts); // Debugging line
-    })
-    .catch(error => {
-      console.error('Error fetching data:', error);
-    });
-}
+const result = document.getElementById("result");
+const searchInput = document.getElementById("searchInput");
+const totalContacts = document.getElementById("totalContacts");
+const clearBtn = document.getElementById("clearBtn");
 
-// Search for contacts by name
-function searchContact() {
-  const searchInput = document.getElementById('searchInput').value.toLowerCase();
-  const resultDiv = document.getElementById('result');
-  
-  if (!searchInput.trim()) {
-    resultDiv.innerHTML = '<p>Search results will appear here...</p>';
-    return;
-  }
-  
-  // Filter contacts based on the search input
-  const filteredContacts = contacts.filter(contact =>
-    contact.name.toLowerCase().includes(searchInput)
-  );
+// =============================
+// Load Contacts
+// =============================
 
-  console.log("Filtered contacts:", filteredContacts); // Debugging line
+async function fetchData() {
 
-  // Display results
-  if (filteredContacts.length > 0) {
-    resultDiv.innerHTML = filteredContacts.map(contact => {
-      return `
-        <div class="contact-result">
-          <p>दर्जा: ${contact.rank}</p>
-          <p>नाम: ${contact.npname}</p>
-          <p>मो.नं.: ${contact.phone}</p>
-          <p>जिम्मेवारी: ${contact.response}</p>
-          <p>Blood Group: ${contact.blood}</p>
-          <button onclick="makeCall('${contact.phone}')">Call</button>
+    result.innerHTML = `
+        <div class="welcome">
+            <h2>Loading contacts...</h2>
         </div>
-      `;
-    }).join('');
-  } else {
-    resultDiv.innerHTML = '<p>No contact found.</p>';
-  }
+    `;
+
+    try {
+
+        const response = await fetch(`contacts.json?${Date.now()}`);
+
+        contacts = await response.json();
+
+        totalContacts.innerHTML =
+            `Total Contacts : <b>${contacts.length}</b>`;
+
+    } catch (error) {
+
+        console.error(error);
+
+        result.innerHTML = `
+            <div class="no-result">
+                Unable to load contacts.
+            </div>
+        `;
+    }
+
 }
 
-// Function to initiate the phone call
-function makeCall(phoneNumber) {
-  window.location.href = `tel:${phoneNumber}`;
+fetchData();
+
+
+// =============================
+// Search
+// =============================
+
+searchInput.addEventListener("input", searchContact);
+
+clearBtn.addEventListener("click", () => {
+
+    searchInput.value = "";
+
+    result.innerHTML = `
+        <div class="welcome">
+            <h2>👮 Nepal Police Contact Directory</h2>
+            <p>Start typing to search contacts.</p>
+        </div>
+    `;
+
+    totalContacts.innerHTML =
+        `Total Contacts : <b>${contacts.length}</b>`;
+
+});
+
+
+// =============================
+// Highlight Text
+// =============================
+
+function highlight(text, keyword){
+
+    if(!keyword) return text || "";
+
+    return String(text).replace(
+
+        new RegExp(`(${keyword})`, "gi"),
+
+        "<mark>$1</mark>"
+
+    );
+
 }
 
-// Fetch data when the page is loaded
-document.addEventListener('DOMContentLoaded', fetchData);
 
+// =============================
+// Search Function
+// =============================
+
+function searchContact(){
+
+    const keyword = searchInput.value.trim().toLowerCase();
+
+    if(keyword===""){
+
+        result.innerHTML = `
+            <div class="welcome">
+                <h2>👮 Nepal Police Contact Directory</h2>
+                <p>Start typing to search contacts.</p>
+            </div>
+        `;
+
+        totalContacts.innerHTML =
+            `Total Contacts : <b>${contacts.length}</b>`;
+
+        return;
+
+    }
+
+    const filtered = contacts.filter(contact =>
+
+        (contact.name || "").toLowerCase().includes(keyword) ||
+
+        (contact.npname || "").toLowerCase().includes(keyword) ||
+
+        (contact.rank || "").toLowerCase().includes(keyword) ||
+
+        (contact.phone || "").includes(keyword) ||
+
+        (contact.response || "").toLowerCase().includes(keyword) ||
+
+        (contact.blood || "").toLowerCase().includes(keyword)
+
+    );
+
+    totalContacts.innerHTML =
+        `Showing <b>${filtered.length}</b> of <b>${contacts.length}</b> contacts`;
+
+    if(filtered.length===0){
+
+        result.innerHTML = `
+            <div class="no-result">
+                <h2>😔</h2>
+                <p>No contact found.</p>
+            </div>
+        `;
+
+        return;
+
+    }
+
+    result.innerHTML = filtered.map(contact => `
+
+<div class="contact-card">
+
+<div class="top-row">
+
+<div class="rank">
+
+${highlight(contact.rank,keyword)}
+
+</div>
+
+<div class="blood">
+
+🩸 ${highlight(contact.blood,keyword)}
+
+</div>
+
+</div>
+
+<div class="name">
+
+${highlight(contact.npname,keyword)}
+
+</div>
+
+<div class="info">
+
+<div class="info-row">
+
+<div class="label">
+मोबाइल
+</div>
+
+<div class="value">
+
+${highlight(contact.phone,keyword)}
+
+</div>
+
+</div>
+
+<div class="info-row">
+
+<div class="label">
+दर्जा
+</div>
+
+<div class="value">
+
+${highlight(contact.rank,keyword)}
+
+</div>
+
+</div>
+
+<div class="info-row">
+
+<div class="label">
+जिम्मेवारी
+</div>
+
+<div class="value">
+
+${highlight(contact.response,keyword)}
+
+</div>
+
+</div>
+
+<div class="info-row">
+
+<div class="label">
+Blood Group
+</div>
+
+<div class="value">
+
+${highlight(contact.blood,keyword)}
+
+</div>
+
+</div>
+
+</div>
+
+<div class="button-row">
+
+<button
+class="copy-btn"
+onclick="copyNumber('${contact.phone}')">
+
+📋 Copy
+
+</button>
+
+<button
+class="call-btn"
+onclick="makeCall('${contact.phone}')">
+
+📞 Call
+
+</button>
+
+</div>
+
+</div>
+
+`).join("");
+
+}
+
+
+// =============================
+// Copy Phone Number
+// =============================
+
+function copyNumber(number){
+
+    navigator.clipboard.writeText(number);
+
+    alert("Copied : " + number);
+
+}
+
+
+// =============================
+// Call
+// =============================
+
+function makeCall(number){
+
+    window.location.href = "tel:" + number;
+
+}
