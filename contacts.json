@@ -5,7 +5,7 @@
     "npname": "मिलन के.सी.",
     "phone": "9858091444",
     "response": "गण प्रमुख",
-    "blood": "A+VE"
+    "blood": "A+ve"
   },
   {
     "rank": "प्र.ना.उ.",
@@ -20,15 +20,23 @@
     "name": "Madhu Sudan Singh/ मधु सुदन सिंह",
     "npname": "मधु सुदन सिंह",
     "phone": "9858090567",
-    "response": "प्रशासन/क.प्र./तालिम शाखा प्रमुख",
+    "response": "प्रशासन/क.प्र./तालिम शाखा",
     "blood": "o+ve"
+  },
+  {
+    "rank": "प्र.नि.",
+    "name": "Kushal Singh Thakuri/ कुशल सिंह ठकुरी",
+    "npname": "कुशल सिंह ठकुरी",
+    "phone": "9858090644",
+    "response": "फिल्ड",
+    "blood": ""
   },
   {
     "rank": "प्र.नि.",
     "name": "Bhim Bahadur Khadka/ भिम बहादुर खड्का",
     "npname": "भिम बहादुर खड्का",
     "phone": "9858040620",
-    "response": "प्रबन्ध शाखा प्रमुख",
+    "response": "प्रबन्ध शाखा",
     "blood": "A+ve"
   },
   {
@@ -49,10 +57,18 @@
   },
   {
     "rank": "प्र.व.ना.नि.",
+    "name": "Gorkha Bahadur Shahi/ गोरख बहादुर शाही",
+    "npname": "गोरख बहादुर शाही",
+    "phone": "9860126954",
+    "response": "फिल्ड",
+    "blood": "A+ve"
+  },
+  {
+    "rank": "प्र.व.ना.नि.",
     "name": "Sachin Singh Rathor/ सचिन सिंह राठौर",
     "npname": "सचिन सिंह राठौर",
     "phone": "9851285445",
-    "response": "सुबदार मेजर",
+    "response": "फिल्ड",
     "blood": "AB-ne"
   },
   {
@@ -60,8 +76,16 @@
     "name": "Suman Kharel/ सुमन खरेल",
     "npname": "सुमन खरेल",
     "phone": "9858040139",
-    "response": "फिल्ड",
+    "response": "सुबदार मेजर",
     "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.व.ना.नि.",
+    "name": "Chandra Bahadur Magar/ चन्द्र बहादुर मगर ",
+    "npname": "चन्द्र बहादुर मगर ",
+    "phone": "9858090815",
+    "response": "फिल्ड",
+    "blood": "A+ve"
   },
   {
     "rank": "प्र.व.ना.नि.",
@@ -77,6 +101,14 @@
     "npname": "दिपेन्द्र  चौधरी",
     "phone": "9858090075",
     "response": "लेखा प्रमुख",
+    "blood": ""
+  },
+  {
+    "rank": "प्र.ना.नि.",
+    "name": "Lil Bahadur Kami/ लिल बहादुर कामी",
+    "npname": "लिल बहादुर कामी",
+    "phone": "9848021732",
+    "response": "फिल्ड",
     "blood": ""
   },
   {
@@ -113,6 +145,22 @@
   },
   {
     "rank": "प्र.ना.नि.",
+    "name": "Rajendra Singh Pujara/ राजेन्द्र सिंह पुजारा",
+    "npname": "राजेन्द्र सिंह पुजारा",
+    "phone": "9858085399",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.ना.नि.",
+    "name": "Sanjeet K.C./ संजित के.सी.",
+    "npname": "संजित के.सी.",
+    "phone": "9858040145",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.ना.नि.",
     "name": "Bhim Bahadur Rawat/ भिम बहादुर रावत",
     "npname": "भिम बहादुर रावत",
     "phone": "9858090242",
@@ -126,6 +174,14 @@
     "phone": "9848045507",
     "response": "फिल्ड",
     "blood": "A+ve"
+  },
+  {
+    "rank": "प्र.ना.नि.",
+    "name": "Hikmat Raj Regmi/ हिक्मत राज रेग्मी",
+    "npname": "हिक्मत राज रेग्मी",
+    "phone": "9866233053",
+    "response": "फिल्ड",
+    "blood": "B+ve"
   },
   {
     "rank": "प्र.स.नि.",
@@ -185,6 +241,30 @@
   },
   {
     "rank": "प्र.स.नि.",
+    "name": "Pan Bahadur Budha/ पान बहादुर बुढा",
+    "npname": "पान बहादुर बुढा",
+    "phone": "9866842426",
+    "response": "फिल्ड",
+    "blood": "A+ve"
+  },
+  {
+    "rank": "प्र.स.नि.",
+    "name": "Pammu B.K./ पम्मु बि.क.",
+    "npname": "पम्मु बि.क.",
+    "phone": "9848086877",
+    "response": "फिल्ड",
+    "blood": "AB+ve"
+  },
+  {
+    "rank": "प्र.स.नि.",
+    "name": "Bachharaj Yadav/ बच्छराज यादव",
+    "npname": "बच्छराज यादव",
+    "phone": "9848311303",
+    "response": "फिल्ड",
+    "blood": "O+ve "
+  },
+  {
+    "rank": "प्र.स.नि.",
     "name": "Tikaram Chaudhary/ टिकाराम चौधरी",
     "npname": "टिकाराम चौधरी",
     "phone": "9849339997",
@@ -195,25 +275,9 @@
     "rank": "प्र.स.नि.",
     "name": "Sushil Dangi/ सुशिल डाँगी",
     "npname": "सुशिल डाँगी",
-    "phone": "9840973589",
+    "phone": "9840972989",
     "response": "फिल्ड",
     "blood": "O+ve "
-  },
-  {
-    "rank": "प्र.स.नि.",
-    "name": "Yagya Thapa/ यज्ञ थापा",
-    "npname": "यज्ञ थापा",
-    "phone": "9768251331",
-    "response": "फिल्ड",
-    "blood": ""
-  },
-  {
-    "rank": "प्र.स.नि.",
-    "name": "Safiuddin Khan/ सफिउद्धिन खाँ",
-    "npname": "सफिउद्धिन खाँ",
-    "phone": "9868307708",
-    "response": "फिल्ड",
-    "blood": "A+ve"
   },
   {
     "rank": "प्र.स.नि.",
@@ -233,9 +297,17 @@
   },
   {
     "rank": "प्र.स.नि.",
-    "name": "Milan Kumar B.K./ मिलन कुमार बि.क.",
-    "npname": "मिलन कुमार बि.क.",
-    "phone": "9863692115",
+    "name": "Rahis Ahamad Sesh/ रहिस अहमद शेष",
+    "npname": "रहिस अहमद शेष",
+    "phone": "9866767847",
+    "response": "फिल्ड",
+    "blood": "O+ve "
+  },
+  {
+    "rank": "प्र.स.नि.",
+    "name": "Prem Bahadur Oli/ प्रेम बहादुर वली",
+    "npname": "प्रेम बहादुर वली",
+    "phone": "9848060903",
     "response": "फिल्ड",
     "blood": "O+ve "
   },
@@ -257,6 +329,14 @@
   },
   {
     "rank": "प्र.स.नि.",
+    "name": "Milan Kumar B.K./ मिलन कुमार बि.क.",
+    "npname": "मिलन कुमार बि.क.",
+    "phone": "9863692115",
+    "response": "फिल्ड",
+    "blood": "O+ve "
+  },
+  {
+    "rank": "प्र.स.नि.",
     "name": "Indra Bahadur Shahi/ ईन्द्र बहादुर शाही",
     "npname": "ईन्द्र बहादुर शाही",
     "phone": "9866208560",
@@ -270,6 +350,14 @@
     "phone": "9848102368",
     "response": "फिल्ड",
     "blood": "O+ve "
+  },
+  {
+    "rank": "प्र.स.नि.",
+    "name": "Dhak Bahadur Roka/ ढक बहादुर रोका",
+    "npname": "ढक बहादुर रोका",
+    "phone": "9848078946",
+    "response": "फिल्ड",
+    "blood": ""
   },
   {
     "rank": "प्र.ब.ह.",
@@ -289,6 +377,14 @@
   },
   {
     "rank": "प्र.ब.ह.",
+    "name": "Basanta Bahadur Tharu/ वसन्त बहादुर थारु",
+    "npname": "वसन्त बहादुर थारु",
+    "phone": "9848083422",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.ब.ह.",
     "name": "Rabin Khadka/ रविन खड्का",
     "npname": "रविन खड्का",
     "phone": "9848085437",
@@ -302,6 +398,14 @@
     "phone": "9841094869",
     "response": "फिल्ड",
     "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.ब.ह.",
+    "name": "Mina Kumari Sunar/ मिना कुमारी सुनार ",
+    "npname": "मिना कुमारी सुनार ",
+    "phone": "9848036196",
+    "response": "फिल्ड",
+    "blood": ""
   },
   {
     "rank": "प्र.ब.ह.",
@@ -337,17 +441,9 @@
   },
   {
     "rank": "प्र.ब.ह.",
-    "name": "Tej Bahadur Budha Magar/ तेज बहादुर बुढा मगर",
-    "npname": "तेज बहादुर बुढा मगर",
-    "phone": "9848244190",
-    "response": "फिल्ड",
-    "blood": "A+ve"
-  },
-  {
-    "rank": "प्र.ब.ह.",
-    "name": "Krishna Tharu/ कृष्ण थारु",
-    "npname": "कृष्ण थारु",
-    "phone": "9869984970",
+    "name": "Bhagwati Shahi/ भगवती शाही",
+    "npname": "भगवती शाही",
+    "phone": "9848297931",
     "response": "फिल्ड",
     "blood": "A+ve"
   },
@@ -380,7 +476,7 @@
     "name": "Dinesh Karki/ दिनेश कार्की",
     "npname": "दिनेश कार्की",
     "phone": "9858090355",
-    "response": "प्रबन्ध शाखा",
+    "response": "प्रबन्ध",
     "blood": "AB+ve"
   },
   {
@@ -403,9 +499,25 @@
     "rank": "प्र.ब.ह.",
     "name": "Ramesh Chaudhary/ रमेश चौधरी",
     "npname": "रमेश चौधरी",
-    "phone": "",
+    "phone": "9846536190",
     "response": "फिल्ड",
     "blood": "A+ve"
+  },
+  {
+    "rank": "प्र.ब.ह.",
+    "name": "Bimala Kumari Gurung/ बिमला कुमारी गुरुङ",
+    "npname": "बिमला कुमारी गुरुङ",
+    "phone": "9742253950",
+    "response": "फिल्ड",
+    "blood": "A+ve"
+  },
+  {
+    "rank": "प्र.ब.ह.",
+    "name": "Tila Kumari Pun Magar/ तिला कुमारी पुन मगर",
+    "npname": "तिला कुमारी पुन मगर",
+    "phone": "9864937793",
+    "response": "फिल्ड",
+    "blood": "AB+ve"
   },
   {
     "rank": "प्र.ब.ह.",
@@ -429,7 +541,7 @@
     "npname": "फरिहदुदिन बागवान",
     "phone": "9848103970",
     "response": "फिल्ड",
-    "blood": ""
+    "blood": "A+ve"
   },
   {
     "rank": "प्र.ह.",
@@ -441,19 +553,27 @@
   },
   {
     "rank": "प्र.ह.",
-    "name": "Sangita Pariyar/ संगिता परियार",
-    "npname": "संगिता परियार",
-    "phone": "9848086535",
+    "name": "Shatrudhan Khatik/ शत्रुधन खटिक",
+    "npname": "शत्रुधन खटिक",
+    "phone": "",
+    "response": "",
+    "blood": ""
+  },
+  {
+    "rank": "प्र.ह.",
+    "name": "Ram Dayal Yadav/ राम दयाल यादव ",
+    "npname": "राम दयाल यादव ",
+    "phone": "9844877053",
     "response": "फिल्ड",
     "blood": "O+ve"
   },
   {
     "rank": "प्र.ह.",
-    "name": "Prema Kumari Shah/ प्रेमा कुमारी शाह",
-    "npname": "प्रेमा कुमारी शाह",
-    "phone": "9848155333",
+    "name": "Sangita Pariyar/ संगिता परियार",
+    "npname": "संगिता परियार",
+    "phone": "9848086535",
     "response": "फिल्ड",
-    "blood": "B+ve"
+    "blood": "O+ve"
   },
   {
     "rank": "प्र.ह.",
@@ -489,6 +609,14 @@
   },
   {
     "rank": "प्र.ह.",
+    "name": "Phan Bahadur Barghare/ फन बहादुर बारघरे",
+    "npname": "फन बहादुर बारघरे",
+    "phone": "9847307204",
+    "response": "फिल्ड",
+    "blood": "AB+ve"
+  },
+  {
+    "rank": "प्र.ह.",
     "name": "Chet Narayan Adhikari/ चेत नारायण अधिकारी",
     "npname": "चेत नारायण अधिकारी",
     "phone": "9851239296",
@@ -513,9 +641,9 @@
   },
   {
     "rank": "प्र.ह.",
-    "name": "Amrita Kumari Chaudhary/ अमृता कुमारी चौधरी ",
-    "npname": "अमृता कुमारी चौधरी ",
-    "phone": "9868301774",
+    "name": "Lakshmi Giri/ लक्ष्मण गिरी",
+    "npname": "लक्ष्मण गिरी",
+    "phone": "9812459353",
     "response": "फिल्ड",
     "blood": "A+ve"
   },
@@ -537,19 +665,35 @@
   },
   {
     "rank": "प्र.ह.",
-    "name": "Som Lal Tharu/ सोम लाल थारु",
-    "npname": "सोम लाल थारु",
-    "phone": "9849108388",
-    "response": "फिल्ड",
-    "blood": "O+ve"
-  },
-  {
-    "rank": "प्र.ह.",
     "name": "Bhupesh Kumar Khatri/ भुपेश कुमार खत्री",
     "npname": "भुपेश कुमार खत्री",
     "phone": "9766381412",
     "response": "फिल्ड",
     "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.ह.",
+    "name": "Srijana B.K./ सृजना वि.क.",
+    "npname": "सृजना वि.क.",
+    "phone": "9858090227",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.ह.",
+    "name": "Budh Ram Loniya/ बुध राम लोनिया",
+    "npname": "बुध राम लोनिया",
+    "phone": "9864291060",
+    "response": "फिल्ड",
+    "blood": ""
+  },
+  {
+    "rank": "प्र.ह.",
+    "name": "Jagat Bahadur Rawal/ जगत बहादुर रावल",
+    "npname": "जगत बहादुर रावल",
+    "phone": "9864949904",
+    "response": "फिल्ड",
+    "blood": "A+ve"
   },
   {
     "rank": "प्र.ह.",
@@ -561,27 +705,11 @@
   },
   {
     "rank": "प्र.ह.",
-    "name": "Shanti Chaudhary (Dynasty)/ शान्ती चौधरी (राजवंशी)",
-    "npname": "शान्ती चौधरी (राजवंशी)",
-    "phone": "9866084161",
-    "response": "फिल्ड",
-    "blood": ""
-  },
-  {
-    "rank": "प्र.ह.",
     "name": "Sushila Gurung/ सुशिला गुरुङ",
     "npname": "सुशिला गुरुङ",
     "phone": "9863125447",
     "response": "फिल्ड",
     "blood": ""
-  },
-  {
-    "rank": "प्र.ह.",
-    "name": "Naveen K.C./ नविन के.सी.",
-    "npname": "नविन के.सी.",
-    "phone": "9868602071",
-    "response": "फिल्ड",
-    "blood": "B+ve"
   },
   {
     "rank": "प्र.ह.",
@@ -609,6 +737,14 @@
   },
   {
     "rank": "प्र.ह.",
+    "name": "Yama Kumari K.C./ यामा कुमारी के.सी.",
+    "npname": "यामा कुमारी के.सी.",
+    "phone": "9868639612",
+    "response": "फिल्ड",
+    "blood": "AB+ve"
+  },
+  {
+    "rank": "प्र.ह.",
     "name": "Ashok Kumar Vishwakarma/ अशोक कुमार विश्वकर्मा",
     "npname": "अशोक कुमार विश्वकर्मा",
     "phone": "9864922980",
@@ -617,8 +753,24 @@
   },
   {
     "rank": "प्र.ह.",
-    "name": "Ram Baran Yadav/ राम बरण यादव",
-    "npname": "राम बरण यादव",
+    "name": "Surendra Chaudhary/ सुरेन्द्र चौधरी",
+    "npname": "सुरेन्द्र चौधरी",
+    "phone": "9806518230",
+    "response": "फिल्ड",
+    "blood": "AB+VE"
+  },
+  {
+    "rank": "प्र.ह.",
+    "name": "Dharmaraj B.K./ धर्मराज वि.क.",
+    "npname": "धर्मराज वि.क.",
+    "phone": "9863129280",
+    "response": "फिल्ड",
+    "blood": "AB+VE"
+  },
+  {
+    "rank": "प्र.ह.",
+    "name": "Ram Baran Yadav/ राम बरन यादव",
+    "npname": "राम बरन यादव",
     "phone": "9849415316",
     "response": "फिल्ड",
     "blood": "O+ve"
@@ -649,9 +801,9 @@
   },
   {
     "rank": "प्र.ह.",
-    "name": "Shankar Bahadur B.K./ शंकर बाहदुर बि.क.",
-    "npname": "शंकर बाहदुर बि.क.",
-    "phone": "9745680903",
+    "name": "Munna Ram Kurmi/ मुन्ना राम कुर्मी",
+    "npname": "मुन्ना राम कुर्मी",
+    "phone": "9765213560",
     "response": "फिल्ड",
     "blood": "A+ve"
   },
@@ -659,7 +811,23 @@
     "rank": "प्र.ह.",
     "name": "Jeet Bahadur Tharu/ जित बहादुर थारु",
     "npname": "जित बहादुर थारु",
-    "phone": "9841788852",
+    "phone": "9841788892",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.ह.",
+    "name": "Jamuna Bhandari/ जमुना भण्डारी",
+    "npname": "जमुना भण्डारी",
+    "phone": "9840017292",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.ह.",
+    "name": "Sukai Khatik/ सुकई खटिक",
+    "npname": "सुकई खटिक",
+    "phone": "9768461514",
     "response": "फिल्ड",
     "blood": "O+ve"
   },
@@ -681,6 +849,22 @@
   },
   {
     "rank": "प्र.ह.",
+    "name": "Ram Kumar Tharu/ राम कुमार थारु",
+    "npname": "राम कुमार थारु",
+    "phone": "9868008723",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.ह.",
+    "name": "Madav Acharya Jaisi/ माधव आचार्य जैसी",
+    "npname": "माधव आचार्य जैसी",
+    "phone": "9868357610",
+    "response": "फिल्ड",
+    "blood": "A+ve"
+  },
+  {
+    "rank": "प्र.ह.",
     "name": "Mina Giri/ मिना गिरी ",
     "npname": "मिना गिरी ",
     "phone": "9868347529",
@@ -694,6 +878,22 @@
     "phone": "9844868464",
     "response": "फिल्ड",
     "blood": ""
+  },
+  {
+    "rank": "प्र.ह.",
+    "name": "Griha Lakshmi Panday/ गृह लक्ष्मी पाण्डे",
+    "npname": "गृह लक्ष्मी पाण्डे",
+    "phone": "9863630819",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.ह.",
+    "name": "Bharat Bahadur Khadka/ भरत बहादुर खड्का",
+    "npname": "भरत बहादुर खड्का",
+    "phone": "9864360460",
+    "response": "फिल्ड",
+    "blood": "O+ve"
   },
   {
     "rank": "प्र.ह.",
@@ -801,14 +1001,6 @@
   },
   {
     "rank": "प्र.स.ह.",
-    "name": "Sita Ram Chaudhary/ सिता राम चौधरी",
-    "npname": "सिता राम चौधरी",
-    "phone": "9840409535",
-    "response": "फिल्ड",
-    "blood": "A+ve"
-  },
-  {
-    "rank": "प्र.स.ह.",
     "name": "Shailendra Kumar Shahi/ शैलेन्द्र कुमार शाही",
     "npname": "शैलेन्द्र कुमार शाही",
     "phone": "9848777209",
@@ -825,18 +1017,26 @@
   },
   {
     "rank": "प्र.स.ह.",
-    "name": "Amit Rana/ अमित राना ",
-    "npname": "अमित राना ",
-    "phone": "9860220059",
-    "response": "प्रशासन",
-    "blood": "A+ve"
+    "name": "Purna Bahadur Pariyar/ पुर्ण बहादुर परियार",
+    "npname": "पुर्ण बहादुर परियार",
+    "phone": "9849559002",
+    "response": "फिल्ड",
+    "blood": "B+ve"
   },
   {
     "rank": "प्र.स.ह.",
-    "name": "Dumber D.C./ डम्बर डि.सी.",
-    "npname": "डम्बर डि.सी.",
-    "phone": "9866162219",
-    "response": "खिलमान",
+    "name": "Chetan Kunwar/ चेतन कुंवर",
+    "npname": "चेतन कुंवर",
+    "phone": "9846749806",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.स.ह.",
+    "name": "Amit Rana/ अमित राना ",
+    "npname": "अमित राना ",
+    "phone": "9843067827",
+    "response": "प्रशासन",
     "blood": "A+ve"
   },
   {
@@ -884,7 +1084,7 @@
     "name": "Gita Malla Thakuri/ गिता मल्ल ठकुरी",
     "npname": "गिता मल्ल ठकुरी",
     "phone": "9858090177",
-    "response": "फिल्ड",
+    "response": "सुत्केरी",
     "blood": "O+ve "
   },
   {
@@ -913,19 +1113,67 @@
   },
   {
     "rank": "प्र.स.ह.",
-    "name": "Ram Kumar Tharu/ राम कुमार थारु",
-    "npname": "राम कुमार थारु",
-    "phone": "",
-    "response": "फिल्ड",
-    "blood": "A+ve"
-  },
-  {
-    "rank": "प्र.स.ह.",
     "name": "Ashok Pulami/ अशोक पुलामी",
     "npname": "अशोक पुलामी",
     "phone": "9847012535",
     "response": "फिल्ड",
     "blood": "B-ne"
+  },
+  {
+    "rank": "प्र.स.ह.",
+    "name": "Anil Raimajhi/ अनिल रायमाझी",
+    "npname": "अनिल रायमाझी",
+    "phone": "9843863582",
+    "response": "फिल्ड",
+    "blood": ""
+  },
+  {
+    "rank": "प्र.स.ह.",
+    "name": "Bhimu Kumari Shahi/ भिमु कुमारी शाही",
+    "npname": "भिमु कुमारी शाही",
+    "phone": "9844856114",
+    "response": "फिल्ड",
+    "blood": "A+ve"
+  },
+  {
+    "rank": "प्र.स.ह.",
+    "name": "Pradip Kunwar/ प्रदिप कुवँर",
+    "npname": "प्रदिप कुवँर",
+    "phone": "9867842582",
+    "response": "फिल्ड",
+    "blood": "O-ne"
+  },
+  {
+    "rank": "प्र.स.ह.",
+    "name": "Hemraj Shah/ हेमराज शाह",
+    "npname": "हेमराज शाह",
+    "phone": "9848060012",
+    "response": "फिल्ड",
+    "blood": "O+ve "
+  },
+  {
+    "rank": "प्र.स.ह.",
+    "name": "Budh Ram Chaudhary/ बुध राम चौधरी",
+    "npname": "बुध राम चौधरी",
+    "phone": "9863692388",
+    "response": "",
+    "blood": ""
+  },
+  {
+    "rank": "प्र.स.ह.",
+    "name": "Dipak Bahadur Tharu/ दिपक बहादुर थारु",
+    "npname": "दिपक बहादुर थारु",
+    "phone": "9868164768",
+    "response": "फिल्ड",
+    "blood": "O+ve "
+  },
+  {
+    "rank": "प्र.स.ह.",
+    "name": "Nirmala K.C./ निर्मला के.सी.",
+    "npname": "निर्मला के.सी.",
+    "phone": "9843281306",
+    "response": "फिल्ड",
+    "blood": ""
   },
   {
     "rank": "प्र.स.ह.",
@@ -948,6 +1196,14 @@
     "name": "Chandralal Chaudhary/ चन्द्रलाल चौधरी",
     "npname": "चन्द्रलाल चौधरी",
     "phone": "9843666753",
+    "response": "चालक",
+    "blood": "O+ve "
+  },
+  {
+    "rank": "प्र.स.ह.",
+    "name": "Harikrishna Tharu/ हरिकृष्ण थारु",
+    "npname": "हरिकृष्ण थारु",
+    "phone": "9843400686",
     "response": "चालक",
     "blood": "O+ve "
   },
@@ -985,19 +1241,19 @@
   },
   {
     "rank": "प्र.स.ह.",
+    "name": "Bir Bahadur B.K./ बिर बहादुर बि.क.",
+    "npname": "बिर बहादुर बि.क.",
+    "phone": "9763371319",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.स.ह.",
     "name": "Om Prakash Shrestha/ ओम प्रकाश श्रेष्ठ",
     "npname": "ओम प्रकाश श्रेष्ठ",
     "phone": "9766949279",
     "response": "फिल्ड",
     "blood": "A+ve"
-  },
-  {
-    "rank": "प्र.स.ह.",
-    "name": "Diwani Chaudhary/ दिवानी चौधरी",
-    "npname": "दिवानी चौधरी",
-    "phone": "9848299419",
-    "response": "फिल्ड",
-    "blood": "O-ne"
   },
   {
     "rank": "प्र.स.ह.",
@@ -1033,6 +1289,14 @@
   },
   {
     "rank": "प्र.स.ह.",
+    "name": "Padam Bahadur Kunwar/ पदम बहादुर कुवँर",
+    "npname": "पदम बहादुर कुवँर",
+    "phone": "9862270673",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.स.ह.",
     "name": "Jitendra Kashyap Kahar/ जितेन्द्र कश्यप कहार",
     "npname": "जितेन्द्र कश्यप कहार",
     "phone": "9866819558",
@@ -1046,6 +1310,22 @@
     "phone": "9844964412",
     "response": "फिल्ड",
     "blood": "A+ve"
+  },
+  {
+    "rank": "प्र.स.ह.",
+    "name": "Sudip Bahadur Gurung/ सुदिप बहादुर गुरुङ",
+    "npname": "सुदिप बहादुर गुरुङ",
+    "phone": "9868076101",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.स.ह.",
+    "name": "Dil Bahadur Chaudhary/ दिल बहादुर चौधरी",
+    "npname": "दिल बहादुर चौधरी",
+    "phone": "9860196352",
+    "response": "फिल्ड",
+    "blood": "O+ve"
   },
   {
     "rank": "प्र.स.ह.",
@@ -1097,6 +1377,38 @@
   },
   {
     "rank": "प्र.स.ह.",
+    "name": "Prakash Thapa/ प्रकाश थापा",
+    "npname": "प्रकाश थापा",
+    "phone": "9848113081",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.स.ह.",
+    "name": "Damanta Khadka/ दमन्ता खड्का",
+    "npname": "दमन्ता खड्का",
+    "phone": "9867842579",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.स.ह.",
+    "name": "Jasbir Singh Sodi/ जसबिर सिंह सोडी",
+    "npname": "जसबिर सिंह सोडी",
+    "phone": "9848353740",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.स.ह.",
+    "name": "Gagan Gharti Magar/ गगन घर्ति मगर",
+    "npname": "गगन घर्ति मगर",
+    "phone": "9858085228",
+    "response": "फिल्ड",
+    "blood": "A+ve"
+  },
+  {
+    "rank": "प्र.स.ह.",
     "name": "Raj Kumar Tharu/ राज कुमार थारु",
     "npname": "राज कुमार थारु",
     "phone": "9858091400",
@@ -1113,19 +1425,19 @@
   },
   {
     "rank": "प्र.स.ह.",
+    "name": "Satish Kumar Chaudhary/ सतिश कुमार चौधरी",
+    "npname": "सतिश कुमार चौधरी",
+    "phone": "9846853058",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.स.ह.",
     "name": "Dhan Bahadur Thapa/ धन बहादुर थापा ",
     "npname": "धन बहादुर थापा ",
     "phone": "9868216940",
     "response": "फिल्ड",
     "blood": "AB+ve"
-  },
-  {
-    "rank": "प्र.स.ह.",
-    "name": "Prakash Budha Magar/ प्रकाश बुढा मगर",
-    "npname": "प्रकाश बुढा मगर",
-    "phone": "9866896481",
-    "response": "फिल्ड",
-    "blood": ""
   },
   {
     "rank": "प्र.स.ह.",
@@ -1173,6 +1485,22 @@
     "npname": "अशोक थारु",
     "phone": "9866707817",
     "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.स.ह.",
+    "name": "Santosh Shahi/ सन्तोष शाही",
+    "npname": "सन्तोष शाही",
+    "phone": "9868274519",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.स.ह.",
+    "name": "Jitendra Shah/ जितेन्द्र शाह",
+    "npname": "जितेन्द्र शाह",
+    "phone": "9862028223",
+    "response": "सि.प्र.अ. मेस",
     "blood": "O+ve"
   },
   {
@@ -1241,14 +1569,6 @@
   },
   {
     "rank": "प्र.स.ह.",
-    "name": "Elina Oli Chhetri/ एलिना वली क्षेत्री ",
-    "npname": "एलिना वली क्षेत्री ",
-    "phone": "9769282048",
-    "response": "फिल्ड",
-    "blood": "AB+ve"
-  },
-  {
-    "rank": "प्र.स.ह.",
     "name": "Lalit Thapa/ ललित थापा",
     "npname": "ललित थापा",
     "phone": "9868155891",
@@ -1265,16 +1585,40 @@
   },
   {
     "rank": "प्र.ज.",
-    "name": "Kamal Tharu/ कमल थारु ",
-    "npname": "कमल थारु ",
-    "phone": "9864345565",
-    "response": "काठ मिस्त्री",
+    "name": "Kiran Babu Gharti Magar/ किरण बाबु घर्तीमगर",
+    "npname": "किरण बाबु घर्तीमगर",
+    "phone": "9861817174",
+    "response": "फिल्ड",
+    "blood": "A+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Dambar Oli/ डम्वर वली",
+    "npname": "डम्वर वली",
+    "phone": "9868663383",
+    "response": "फिल्ड",
+    "blood": ""
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Santosh B.K./ सन्तोष वि.क.",
+    "npname": "सन्तोष वि.क.",
+    "phone": "984452125",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Trilok K.C./ त्रिलोक के.सी.",
+    "npname": "त्रिलोक के.सी.",
+    "phone": "9858070144",
+    "response": "फिल्ड",
     "blood": "B+ve"
   },
   {
     "rank": "प्र.ज.",
-    "name": "Deepak Singh/ दिपक सिंह",
-    "npname": "दिपक सिंह",
+    "name": "Dipak K.C./ दिपक सिंह ",
+    "npname": "दिपक सिंह ",
     "phone": "9866728450",
     "response": "DIG निवास",
     "blood": "A+ve"
@@ -1308,7 +1652,7 @@
     "name": "Lakshmi Sharma/ लक्ष्मी शर्मा ",
     "npname": "लक्ष्मी शर्मा ",
     "phone": "9864345745",
-    "response": "फिल्ड",
+    "response": "सुत्केरी",
     "blood": "B+ve"
   },
   {
@@ -1377,8 +1721,8 @@
   },
   {
     "rank": "प्र.ज.",
-    "name": "Binod Kaile Kushmi/ बिनोद कैले कुश्मी",
-    "npname": "बिनोद कैले कुश्मी",
+    "name": "Binod Kaili Kusmi/ बिनोद कैली कुश्मी",
+    "npname": "बिनोद कैली कुश्मी",
     "phone": "9864945358",
     "response": "फिल्ड",
     "blood": "O+ve"
@@ -1390,6 +1734,102 @@
     "phone": "9810810770",
     "response": "फिल्ड",
     "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Hariram Loniya/ हरिराम लोनिया",
+    "npname": "हरिराम लोनिया",
+    "phone": "9822497688",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Sakuntala Giri/ सकुन्तला गिरी",
+    "npname": "सकुन्तला गिरी",
+    "phone": "9864862049",
+    "response": "फिल्ड",
+    "blood": "AB+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Sangita G.C./ संगिता जि.सी.",
+    "npname": "संगिता जि.सी.",
+    "phone": "9842323590",
+    "response": "फिल्ड",
+    "blood": "AB+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Narayan Budha Magar/ नारायण बुढा मगर",
+    "npname": "नारायण बुढा मगर",
+    "phone": "9823880686",
+    "response": "फिल्ड",
+    "blood": "AB+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Gobinda Kishan/ गोबिन्द किसान",
+    "npname": "गोबिन्द किसान",
+    "phone": "9847340859",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Bikram Thapa Magar/ बिक्रम थापा मगर",
+    "npname": "बिक्रम थापा मगर",
+    "phone": "9707831743",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Karuna Kumari Thapa/ करुणा कुमारी थापा",
+    "npname": "करुणा कुमारी थापा",
+    "phone": "9866840068",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Krishna Bahadur B.K./ कृष्ण बहादुर बि.क.",
+    "npname": "कृष्ण बहादुर बि.क.",
+    "phone": "9867955774",
+    "response": "फिल्ड",
+    "blood": "A+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Prasant Giri/ प्रशान्त गिरी",
+    "npname": "प्रशान्त गिरी",
+    "phone": "9762317777",
+    "response": "फिल्ड",
+    "blood": "AB+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Sailendra Bikram Karki/ शैलेन्द्र बिक्रम कार्की",
+    "npname": "शैलेन्द्र बिक्रम कार्की",
+    "phone": "9861425039",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Yuvraj Pun/ युवराज पुन",
+    "npname": "युवराज पुन",
+    "phone": "9866131149",
+    "response": "फिल्ड",
+    "blood": "AB+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Shiv Bahadur J.C./ शिव बहादुर जि.सी.",
+    "npname": "शिव बहादुर जि.सी.",
+    "phone": "9868233169",
+    "response": "फिल्ड",
+    "blood": "O+ve"
   },
   {
     "rank": "प्र.ज.",
@@ -1409,16 +1849,8 @@
   },
   {
     "rank": "प्र.ज.",
-    "name": "Birendra Sri/ बीरेन्द्र श्रीस ",
-    "npname": "बीरेन्द्र श्रीस ",
-    "phone": "9847055622",
-    "response": "चालक",
-    "blood": "A+ve"
-  },
-  {
-    "rank": "प्र.ज.",
-    "name": "Ghanshyam Sumar/ घनश्याम सुमार ",
-    "npname": "घनश्याम सुमार ",
+    "name": "Dhanshyam Sunar/ घनश्याम सुनार ",
+    "npname": "घनश्याम सुनार ",
     "phone": "9765841859",
     "response": "फिल्ड",
     "blood": "AB+ve"
@@ -1449,17 +1881,33 @@
   },
   {
     "rank": "प्र.ज.",
-    "name": "Delhi Sarki/ डिल्ली सार्की",
-    "npname": "डिल्ली सार्की",
-    "phone": "9764722316",
-    "response": "फिल्ड",
-    "blood": "B+ve"
-  },
-  {
-    "rank": "प्र.ज.",
     "name": "Dinesh Godia/ दिनेश गोडिया",
     "npname": "दिनेश गोडिया",
     "phone": "9845586098",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Lakshmi Chaudhary/ लक्ष्मी चौधरी",
+    "npname": "लक्ष्मी चौधरी",
+    "phone": "9819588719",
+    "response": "फिल्ड",
+    "blood": "AB+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Bishal B.K./ विशाल बि.क.",
+    "npname": "विशाल बि.क.",
+    "phone": "9848629853",
+    "response": "फिल्ड",
+    "blood": "A+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Rajesh Sunar/ राजेश सुनार",
+    "npname": "राजेश सुनार",
+    "phone": "9800587930",
     "response": "फिल्ड",
     "blood": "O+ve"
   },
@@ -1486,14 +1934,6 @@
     "phone": "9741856206",
     "response": "क्यान्टिन",
     "blood": "O+ve"
-  },
-  {
-    "rank": "प्र.ज.",
-    "name": "Anju Sunar/ अन्जु सुनार ",
-    "npname": "अन्जु सुनार ",
-    "phone": "9868219135",
-    "response": "फिल्ड",
-    "blood": "B+ve "
   },
   {
     "rank": "प्र.ज.",
@@ -1526,14 +1966,6 @@
     "phone": "9860989832",
     "response": "फिल्ड",
     "blood": "AB+ve"
-  },
-  {
-    "rank": "प्र.ज.",
-    "name": "Anil Kumar Khatri/ अनिल कुमार खत्री",
-    "npname": "अनिल कुमार खत्री",
-    "phone": "9764322409",
-    "response": "फिल्ड",
-    "blood": "B+ve"
   },
   {
     "rank": "प्र.ज.",
@@ -1649,10 +2081,82 @@
   },
   {
     "rank": "प्र.ज.",
+    "name": "Dhanipal Mahata/ धनिपाल महता",
+    "npname": "धनिपाल महता",
+    "phone": "9866605935",
+    "response": "फिल्ड",
+    "blood": "A+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Anuradha Kumari Panday/ अनुराधा कुमारी पाण्डे",
+    "npname": "अनुराधा कुमारी पाण्डे",
+    "phone": "9842806503",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Santa Kumar Rana/ सन्त कुमार राना",
+    "npname": "सन्त कुमार राना",
+    "phone": "9815649925",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Himal Serchan Thakali/ हिमाल सेरचन थकाली",
+    "npname": "हिमाल सेरचन थकाली",
+    "phone": "9863287131",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Krishna Kumar Berma/ कृष्ण कुमार बर्मा",
+    "npname": "कृष्ण कुमार बर्मा",
+    "phone": "9812498571",
+    "response": "",
+    "blood": ""
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Pratap Gharti Magar/ प्रताप घर्तिमगर",
+    "npname": "प्रताप घर्तिमगर",
+    "phone": "9869595793",
+    "response": "फिल्ड",
+    "blood": "O+ve "
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Umesh Bahadur Thapa Magar/ उमेश बहादुर थापा मगर",
+    "npname": "उमेश बहादुर थापा मगर",
+    "phone": "9860420356",
+    "response": "फिल्ड",
+    "blood": "A+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Anup Kumar Tharu/ अनुप कुमार थारु",
+    "npname": "अनुप कुमार थारु",
+    "phone": "9841880054",
+    "response": "फिल्ड",
+    "blood": ""
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Yagya Jaisi/ यज्ञ जैसी ",
+    "npname": "यज्ञ जैसी ",
+    "phone": "9868108133",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.ज.",
     "name": "Gobind Chidimar/ गोबिन्द चिडिमार",
     "npname": "गोबिन्द चिडिमार",
     "phone": "9764700397",
-    "response": "पन्छी पालन",
+    "response": "जु.प्र.अ.टवासी",
     "blood": "B+ve"
   },
   {
@@ -1684,14 +2188,6 @@
     "name": "Santosh Kurmi/ सन्तोष कुर्मी",
     "npname": "सन्तोष कुर्मी",
     "phone": "9812903507",
-    "response": "फिल्ड",
-    "blood": "B+ve"
-  },
-  {
-    "rank": "प्र.ज.",
-    "name": "Gyan Chandra Mishra/ ज्ञान चन्द्र मिश्रा",
-    "npname": "ज्ञान चन्द्र मिश्रा",
-    "phone": "9812420702",
     "response": "फिल्ड",
     "blood": "B+ve"
   },
@@ -1809,11 +2305,115 @@
   },
   {
     "rank": "प्र.ज.",
-    "name": "Chand Bahadur Gaha Magar/ चन्द बहादुर गाहा मगर",
-    "npname": "चन्द बहादुर गाहा मगर",
+    "name": "Chandra Bahadur Gaha Magar/ चन्द्र बहादुर गाहा मगर",
+    "npname": "चन्द्र बहादुर गाहा मगर",
     "phone": "9811562851",
     "response": "फिल्ड",
     "blood": "A+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Munna Yadav/ मुन्ना यादव",
+    "npname": "मुन्ना यादव",
+    "phone": "9707591020",
+    "response": "फिल्ड",
+    "blood": "B+VE"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Tul Bahadur Kumal/ तुल बहादुर कुमाल",
+    "npname": "तुल बहादुर कुमाल",
+    "phone": "9847939905",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Gun Bahadur Laptari/ गुन बहादुर लप्तरी",
+    "npname": "गुन बहादुर लप्तरी",
+    "phone": "9742345693",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Dipak Kumar Magar/ दिपक कुमार मगर",
+    "npname": "दिपक कुमार मगर",
+    "phone": "9863381928",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Arjun Sunar/ अर्जुन सुनार",
+    "npname": "अर्जुन सुनार",
+    "phone": "9869792796",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Prem Bahadur Pun Magar/ प्रेम बहादुर पुन मगर",
+    "npname": "प्रेम बहादुर पुन मगर",
+    "phone": "9766935955",
+    "response": "फिल्ड",
+    "blood": "AB+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Puran Damai/ पुरन दमाई",
+    "npname": "पुरन दमाई",
+    "phone": "9745409791",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Nanda Adhikari/ नन्द अधिकारी",
+    "npname": "नन्द अधिकारी",
+    "phone": "9868938840",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Janak Thapa/ जनक थापा",
+    "npname": "जनक थापा",
+    "phone": "9848372445",
+    "response": "फिल्ड",
+    "blood": "AB+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Ram Bahadur Rana/ राम बहादुर राना",
+    "npname": "राम बहादुर राना",
+    "phone": "9851289849",
+    "response": "फिल्ड",
+    "blood": "AB+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Arbin Tharu/ अर्विन थारु",
+    "npname": "अर्विन थारु",
+    "phone": "9824511972",
+    "response": "फिल्ड",
+    "blood": "AB+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Madhu Kumal/ मधु कुमाल",
+    "npname": "मधु कुमाल",
+    "phone": "9860105109",
+    "response": "फिल्ड",
+    "blood": "AB+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Niraj Oli/ निरज वली",
+    "npname": "निरज वली",
+    "phone": "9864916633",
+    "response": "फिल्ड",
+    "blood": "B+ve"
   },
   {
     "rank": "प्र.ज.",
@@ -1844,7 +2444,7 @@
     "name": "Man Bahadur Khatri/ मान बहादुर खत्री",
     "npname": "मान बहादुर खत्री",
     "phone": "9829678145",
-    "response": "1 sir निवास",
+    "response": "कृषि",
     "blood": ""
   },
   {
@@ -1859,8 +2459,8 @@
     "rank": "प्र.ज.",
     "name": "Shishir Luitel/ शिशिर लुइटेल",
     "npname": "शिशिर लुइटेल",
-    "phone": "9868223519",
-    "response": "IT Support",
+    "phone": "9858070519",
+    "response": "प्रशासन",
     "blood": "O+ve "
   },
   {
@@ -1873,26 +2473,10 @@
   },
   {
     "rank": "प्र.ज.",
-    "name": "Nagendra Bahadur Shahi/ नगेन्द्र बहादुर शाही",
-    "npname": "नगेन्द्र बहादुर शाही",
-    "phone": "9858092123",
-    "response": "फिल्ड",
-    "blood": "B+ve"
-  },
-  {
-    "rank": "प्र.ज.",
-    "name": "Kamala Bhatta/ कमला भट्ट",
-    "npname": "कमला भट्ट",
-    "phone": "9862472305",
-    "response": "फिल्ड",
-    "blood": "O+ve"
-  },
-  {
-    "rank": "प्र.ज.",
     "name": "Kabita Budha Magar/ कबिता बुढा मगर",
     "npname": "कबिता बुढा मगर",
     "phone": "9745899462",
-    "response": "फिल्ड",
+    "response": "गर्भवती",
     "blood": "B+ve"
   },
   {
@@ -1916,7 +2500,7 @@
     "name": "Sarita Tharu/ सरिता थारु",
     "npname": "सरिता थारु",
     "phone": "9866200274",
-    "response": "फिल्ड",
+    "response": "गर्भवती",
     "blood": ""
   },
   {
@@ -1929,27 +2513,11 @@
   },
   {
     "rank": "प्र.ज.",
-    "name": "Basanta Rokaya/ बसन्ता रोकाया",
-    "npname": "बसन्ता रोकाया",
-    "phone": "9769423819",
-    "response": "फिल्ड",
-    "blood": "AB+ve"
-  },
-  {
-    "rank": "प्र.ज.",
     "name": "Gyan Bahadur Thapa Magar/ ज्ञान बहादुर थापा मगर",
     "npname": "ज्ञान बहादुर थापा मगर",
     "phone": "9864282143",
     "response": "फिल्ड",
     "blood": "O-ne"
-  },
-  {
-    "rank": "प्र.ज.",
-    "name": "Parmila Kumari Kami/ परमिला कुमारी कामी",
-    "npname": "परमिला कुमारी कामी",
-    "phone": "9858091095",
-    "response": "फिल्ड",
-    "blood": "O+ve"
   },
   {
     "rank": "प्र.ज.",
@@ -1985,11 +2553,59 @@
   },
   {
     "rank": "प्र.ज.",
-    "name": "Parvati Vishwakarma/ पार्वती विश्वकर्मा",
-    "npname": "पार्वती विश्वकर्मा",
-    "phone": "9814514486",
+    "name": "Rupa Sarki/ रुपा सार्की",
+    "npname": "रुपा सार्की",
+    "phone": "9866868590",
     "response": "फिल्ड",
-    "blood": "A+ve"
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Jaya Bahadur Sunar/ जया बहादुर सुनार",
+    "npname": "जया बहादुर सुनार",
+    "phone": "9814541166",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Pratap Rath/ प्रताप राढ",
+    "npname": "प्रताप राढ",
+    "phone": "9748735781",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Dipak B.K./ दिपक बि.क.",
+    "npname": "दिपक बि.क.",
+    "phone": "9748318044",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Sanjay Khatri/ संजय खत्री",
+    "npname": "संजय खत्री",
+    "phone": "9825573174",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Kamala Bhatta/ कमला भट्ट",
+    "npname": "कमला भट्ट",
+    "phone": "9862472305",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Samikshya Bohara/ समिक्षा वोहरा",
+    "npname": "समिक्षा वोहरा",
+    "phone": "9869668062",
+    "response": "फिल्ड",
+    "blood": "O+ve"
   },
   {
     "rank": "प्र.ज.",
@@ -2004,7 +2620,7 @@
     "name": "Suman Kumari Tharu/ सुमन कुमारी थारू",
     "npname": "सुमन कुमारी थारू",
     "phone": "9812427235",
-    "response": "फिल्ड",
+    "response": "गर्भवती",
     "blood": "B+ve"
   },
   {
@@ -2073,10 +2689,34 @@
   },
   {
     "rank": "प्र.ज.",
+    "name": "Bijay Khatri/ बिजय खत्री",
+    "npname": "बिजय खत्री",
+    "phone": "9866755273",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Rupesh Tharu/ रुपेश थारु",
+    "npname": "रुपेश थारु",
+    "phone": "9856091307",
+    "response": "फिल्ड",
+    "blood": "A+ve"
+  },
+  {
+    "rank": "प्र.ज.",
+    "name": "Indrapal Sonkar/ इन्द्रपाल सोनकर",
+    "npname": "इन्द्रपाल सोनकर",
+    "phone": "9826538180",
+    "response": "फिल्ड",
+    "blood": "B+ve"
+  },
+  {
+    "rank": "प्र.ज.",
     "name": "Shankar Adhikari/ शंकर अधिकारी",
     "npname": "शंकर अधिकारी",
     "phone": "9766946948",
-    "response": "फिल्ड",
+    "response": "",
     "blood": ""
   },
   {
@@ -2097,6 +2737,14 @@
   },
   {
     "rank": "प्र.ज.",
+    "name": "Ankit Singh Sikh/ अंकित सिंह सिख",
+    "npname": "अंकित सिंह सिख",
+    "phone": "9868200856",
+    "response": "फिल्ड",
+    "blood": "O+ve"
+  },
+  {
+    "rank": "प्र.ज.",
     "name": "Seraj Ahmed Gujar/ सेराज अहमद गुजर",
     "npname": "सेराज अहमद गुजर",
     "phone": "9812214866",
@@ -2105,17 +2753,17 @@
   },
   {
     "rank": "प्र.ज.",
-    "name": "Maya Tharu/ माया थारु",
-    "npname": "माया थारु",
-    "phone": "9812920968",
+    "name": "Sarita Bohara/ सरिता बोहरा",
+    "npname": "सरिता बोहरा",
+    "phone": "9768461753",
     "response": "फिल्ड",
-    "blood": ""
+    "blood": "B+ve"
   },
   {
     "rank": "प्र.ज.",
-    "name": "Mina Vishwakarma/ मिना विश्वकर्मा",
-    "npname": "मिना विश्वकर्मा",
-    "phone": "9761582526",
+    "name": "Arjun B.K./ अर्जुन बि.क.",
+    "npname": "अर्जुन बि.क.",
+    "phone": "9762104037",
     "response": "फिल्ड",
     "blood": ""
   },
